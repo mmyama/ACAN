@@ -13,7 +13,7 @@ namespace ACANApp.Views
     public partial class InicioView : ContentPage
     {
         /*
-         * Falta:   - Banner superior móvel
+         * Falta:   - Banner superior móvel (carousel??)
          *          - ícones com links para redes sociais
          */
         public InicioView()
