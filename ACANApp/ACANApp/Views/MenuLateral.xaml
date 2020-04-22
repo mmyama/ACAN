@@ -36,6 +36,11 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
+            <Image
+                Grid.Column="1"
+                Grid.Row="1"
+                Source="Logo2.jpg">
+            </Image>
             <Label
               Grid.Column="1"
               Grid.Row="2"
