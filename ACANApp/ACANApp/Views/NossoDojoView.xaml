@@ -36,6 +36,7 @@
                 <Label Text="TREINO GERAL OU SOMENTE GRADUADOS," FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text="DIVULGADO DURANTE A SEMANA." FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
+                <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
                 <Label Text=""/>
                 <Label Text="NÃO COBRAMOS TAXA DE MATRÍCULA." 
                        FontSize="15" HorizontalTextAlignment="Center"
