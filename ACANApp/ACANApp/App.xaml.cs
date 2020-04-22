@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ACANApp.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace ACANApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MasterDetailACAN();
         }
 
         protected override void OnStart()
