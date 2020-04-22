@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ACANApp.Views.PageKawai">
+             x:Class="ACANApp.Views.PageKawai"
+             Title="Aikido no Brasil">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Página Kawai Sensei"
