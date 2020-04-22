@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ACANApp.Views.MasterDetailViewACAN"
+             x:Class="ACANApp.Views.MasterDetailView"
              xmlns:pages="clr-namespace:ACANApp.Views">
   <MasterDetailPage.Master>
     <pages:MenuLateral x:Name="MasterPage" />

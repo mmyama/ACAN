@@ -21,7 +21,7 @@
               <x:String>Page 6</x:String>
               <x:String>Page 7</x:String>
               <x:String>Page 8</x:String>
-                </x:Array>
+          </x:Array>
       </d:ListView.ItemsSource>
       <ListView.Header>
         <Grid BackgroundColor="#ffffff">
@@ -36,11 +36,14 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="10"/>
           </Grid.RowDefinitions>
-          <Label
+            <Label
               Grid.Column="1"
               Grid.Row="2"
-              Text="AppName"
-              Style="{DynamicResource SubtitleStyle}"/>
+              Text="Academia Central de Aikido de Natal"
+              FontAttributes="Bold"
+              HorizontalTextAlignment="Center"
+              FontSize="15">
+            </Label>
         </Grid>
       </ListView.Header>
       <ListView.ItemTemplate>
@@ -50,7 +53,6 @@
               <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
                     Text="{Binding Title}" 
-                    d:Text="{Binding .}"
                     FontSize="24"/>
             </StackLayout>
           </ViewCell>

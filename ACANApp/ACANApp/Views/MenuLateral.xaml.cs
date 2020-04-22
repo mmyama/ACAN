@@ -25,7 +25,7 @@ namespace ACANApp.Views
             ListView = MenuItemsListView;
         }
 
-        class MasterDetailACANMasterViewModel : INotifyPropertyChanged
+        class MasterDetailACANMasterViewModel
         {
             public ObservableCollection<MasterDetailViewMasterMenuItem> MenuItems { get; set; }
 
