@@ -4,16 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ACANApp.Views.MasterDetailACAN"
+             x:Class="ACANApp.Views.MasterDetailViewACAN"
              xmlns:pages="clr-namespace:ACANApp.Views">
   <MasterDetailPage.Master>
-    <pages:MasterDetailACANMaster x:Name="MasterPage" />
+    <pages:MenuLateral x:Name="MasterPage" />
   </MasterDetailPage.Master>
   <MasterDetailPage.Detail>
-    <NavigationPage>
-      <x:Arguments>
-        <pages:MasterDetailACANDetail />
-      </x:Arguments>
-    </NavigationPage>
+        <pages:PageInicio />
   </MasterDetailPage.Detail>
 </MasterDetailPage>

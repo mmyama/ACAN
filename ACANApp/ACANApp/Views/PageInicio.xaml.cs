@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterDetailACANDetail : ContentPage
+    public partial class PageInicio : ContentPage
     {
-        public MasterDetailACANDetail()
+        public PageInicio()
         {
             InitializeComponent();
         }

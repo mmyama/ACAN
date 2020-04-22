@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace ACANApp.Views
 {
 
-    public class MasterDetailACANMasterMenuItem
+    public class MasterDetailViewMasterMenuItem
     {
-        public MasterDetailACANMasterMenuItem()
+        public MasterDetailViewMasterMenuItem()
         {
-            TargetType = typeof(MasterDetailACANMasterMenuItem);
+            TargetType = typeof(MasterDetailViewMasterMenuItem);
         }
         public int Id { get; set; }
         public string Title { get; set; }

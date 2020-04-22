@@ -13,11 +13,11 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterDetailACANMaster : ContentPage
+    public partial class MenuLateral : ContentPage
     {
         public ListView ListView;
 
-        public MasterDetailACANMaster()
+        public MenuLateral()
         {
             InitializeComponent();
 
@@ -27,17 +27,20 @@ namespace ACANApp.Views
 
         class MasterDetailACANMasterViewModel : INotifyPropertyChanged
         {
-            public ObservableCollection<MasterDetailACANMasterMenuItem> MenuItems { get; set; }
+            public ObservableCollection<MasterDetailViewMasterMenuItem> MenuItems { get; set; }
 
             public MasterDetailACANMasterViewModel()
             {
-                MenuItems = new ObservableCollection<MasterDetailACANMasterMenuItem>(new[]
+                MenuItems = new ObservableCollection<MasterDetailViewMasterMenuItem>(new[]
                 {
-                    new MasterDetailACANMasterMenuItem { Id = 0, Title = "Page 1" },
-                    new MasterDetailACANMasterMenuItem { Id = 1, Title = "Page 2" },
-                    new MasterDetailACANMasterMenuItem { Id = 2, Title = "Page 3" },
-                    new MasterDetailACANMasterMenuItem { Id = 3, Title = "Page 4" },
-                    new MasterDetailACANMasterMenuItem { Id = 4, Title = "Page 5" },
+                    new MasterDetailViewMasterMenuItem { Id = 0, Title = "Início" },
+                    new MasterDetailViewMasterMenuItem { Id = 1, Title = "Aikido" },
+                    new MasterDetailViewMasterMenuItem { Id = 2, Title = "Cultura" },
+                    new MasterDetailViewMasterMenuItem { Id = 3, Title = "Nosso Dojo" },
+                    new MasterDetailViewMasterMenuItem { Id = 4, Title = "História do Aikido" },
+                    new MasterDetailViewMasterMenuItem { Id = 5, Title = "Aikido no Brasil" },
+                    new MasterDetailViewMasterMenuItem { Id = 6, Title = "Cadastro" },
+                    new MasterDetailViewMasterMenuItem { Id = 7, Title = "Contato" },
                 });
             }
 

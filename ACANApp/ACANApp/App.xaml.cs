@@ -11,7 +11,7 @@ namespace ACANApp
         {
             InitializeComponent();
 
-            MainPage = new MasterDetailACAN();
+            MainPage = new MasterDetailViewACAN();
         }
 
         protected override void OnStart()

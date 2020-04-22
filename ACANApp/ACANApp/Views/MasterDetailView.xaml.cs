@@ -10,26 +10,19 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterDetailACAN : MasterDetailPage
+    public partial class MasterDetailViewACAN : MasterDetailPage
     {
-        public MasterDetailACAN()
+        public MasterDetailViewACAN()
         {
             InitializeComponent();
+            Detail = new NavigationPage(new PageInicio());
             MasterPage.ListView.ItemSelected += ListView_ItemSelected;
         }
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var item = e.SelectedItem as MasterDetailACANMasterMenuItem;
-            if (item == null)
-                return;
 
-            var page = (Page)Activator.CreateInstance(item.TargetType);
-            page.Title = item.Title;
-
-            Detail = new NavigationPage(page);
             IsPresented = false;
-
             MasterPage.ListView.SelectedItem = null;
         }
     }
