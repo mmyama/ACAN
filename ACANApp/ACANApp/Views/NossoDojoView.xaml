@@ -6,7 +6,51 @@
              mc:Ignorable="d"
              x:Class="ACANApp.Views.NossoDojoView"
             Title="ACAN">
-    <ContentPage Title="Horários"></ContentPage>
+    <ContentPage Title="Horários">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="TREINOS REGULARES" FontSize="25" HorizontalOptions="Center"/>
+                </Frame>
+                <Label Text=""/>
+                <Label Text="MANHÃ" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="6:15 ás 7:30" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="SEGUNDA, QUARTA e SEXTA" FontSize="Small" HorizontalTextAlignment="Center"/>
+                <Label Text=""/>
+                <Label Text="NOITE" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="19:00 ás 20:30" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="SEGUNDA A SEXTA" FontSize="Small" HorizontalTextAlignment="Center"/>
+                <Label Text=""/>
+                <Label Text="20:30 ás 21:40" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="TERÇA E QUINTA" FontSize="Small" HorizontalTextAlignment="Center"/>
+                <Label Text=""/>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="TREINOS ESPECIAIS" FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text=""/>
+                <Label Text="SÁBADO" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="9:00 ás 10:00 (INFANTIL)" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="A PARTIR DOS 7 ANOS" FontSize="Small" HorizontalTextAlignment="Center"/>
+                <Label Text=""/>
+                <Label Text="10:00 ÀS 11:30" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="TREINO GERAL OU SOMENTE GRADUADOS," FontSize="Small" HorizontalTextAlignment="Center"/>
+                <Label Text="DIVULGADO DURANTE A SEMANA." FontSize="Small" HorizontalTextAlignment="Center"/>
+                <Label Text=""/>
+                <Label Text=""/>
+                <Label Text="NÃO COBRAMOS TAXA DE MATRÍCULA." 
+                       FontSize="15" HorizontalTextAlignment="Center"
+                       FontAttributes="Bold"/>
+                <Label Text="GRADE DE HORÁRIO ABERTA, OU SEJA, A FREQUÊNCIA É LIVRE." 
+                       FontSize="13" HorizontalTextAlignment="Center"
+                       FontAttributes="Bold"/>
+                <Label Text="O aluno pode participar de todos os horário e com qualquer um dos senseis." 
+                       FontSize="12" HorizontalTextAlignment="Center"/>
+                <Label Text="Duração média de um treino normal: 1h30min podendo se estender até 2h" 
+                       FontSize="12" HorizontalTextAlignment="Center"/>
+                <Label Text=""/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
     <ContentPage Title="Localização"></ContentPage>
     <ContentPage Title="Instrutores"></ContentPage>
     <ContentPage Title="Etiqueta">
