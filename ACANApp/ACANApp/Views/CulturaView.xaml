@@ -6,8 +6,81 @@
              mc:Ignorable="d"
              x:Class="ACANApp.Views.CulturaView"
             Title="Cultura">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+    <ContentPage Title="O Espírito">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="O Espírito Japonês e o Aikido"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtEspirito" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Hakama">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Hakama"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtHakama" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Kimono Nuihaku">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Kimono de Seda do Tipo Nuihaku"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtKimono" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Caligrafia">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Caligrafia"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtCaligrafia" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Tien Shen">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Tien Shen - Bambu"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtTienShen" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Zanshin">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Zanshin - O Espírito do Gesto"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtZanshin" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Seiza">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Seiza"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtSeiza" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
 </TabbedPage>

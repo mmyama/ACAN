@@ -105,7 +105,7 @@ namespace ACANApp.Models
 				" A única restrição quanto ao Dogi é que ele seja de cor branca.O aluno pode adquirir seu Dogi onde " +
 				"bem entender.\nCaso o haja interesse por parte do aluno a Academia realiza pedidos de Kimonos e outros " +
 				"artefatos necessários para o desenvolvimento do aluno nas aulas.Não é um comércio aberto, os pedidos " +
-				"serão realizados sob encomenda individual(ver condições junto à secretaria)."
+				"serão realizados sob encomenda individual(ver condições junto à secretaria).";
 		}
 	}
 }

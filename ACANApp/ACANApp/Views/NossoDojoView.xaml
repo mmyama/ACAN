@@ -6,8 +6,20 @@
              mc:Ignorable="d"
              x:Class="ACANApp.Views.NossoDojoView"
             Title="ACAN">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+    <ContentPage Title="Horários"></ContentPage>
+    <ContentPage Title="Localização"></ContentPage>
+    <ContentPage Title="Instrutores"></ContentPage>
+    <ContentPage Title="Etiqueta">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Etiqueta"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtEtiqueta" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Programação"></ContentPage>
+    <ContentPage Title="Dojos RN"></ContentPage>
 </TabbedPage>

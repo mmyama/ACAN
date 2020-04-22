@@ -6,8 +6,29 @@
              mc:Ignorable="d"
              x:Class="ACANApp.Views.FundadorView"
             Title="História do Aikido">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+
+    <ContentPage Title="O Fundador">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="O Fundador"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtFundador" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <!--Adicionar outras fotos, mudar tamanho das fotos e modo de exibição (Grid?)-->
+                <Image Source="OSensei01.jpg"></Image>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Aikido">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Aikido"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtAikido" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
 </TabbedPage>

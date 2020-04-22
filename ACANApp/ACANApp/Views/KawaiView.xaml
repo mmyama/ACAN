@@ -6,11 +6,18 @@
              mc:Ignorable="d"
              x:Class="ACANApp.Views.KawaiView"
              Title="Aikido no Brasil">
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Página Kawai Sensei"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Kawai Sensei - 8º Dan Shihan"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtKawai" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <!--Adicionar outras fotos, mudar tamanho das fotos e modo de exibição (Grid?)-->
+                <Image Source="kawai01.jpg"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

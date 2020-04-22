@@ -6,8 +6,59 @@
              mc:Ignorable="d"
              x:Class="ACANApp.Views.AikidoView"
             Title="Aikido">
-  <!--Pages can be added as references or inline-->
-  <ContentPage Title="Tab 1" />
-  <ContentPage Title="Tab 2" />
-  <ContentPage Title="Tab 3" />
+    
+    <ContentPage Title="O Caminho">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="O Aikidô como Caminho" FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtCaminho" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Filosofia">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="A Técnica Reflete a Filosofia"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtFilosofia" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Livros">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Indicação de Livros"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtLivros" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Técnicas">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Técnicas"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtTecnicas" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Glossario">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Glossário"
+                           FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Label Text="TxtGlossario" Margin="30" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
 </TabbedPage>
