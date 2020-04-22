@@ -12,6 +12,10 @@ namespace ACANApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageInicio : ContentPage
     {
+        /*
+         * Falta:   - Banner superior móvel
+         *          - ícones com links para redes sociais
+         */
         public PageInicio()
         {
             InitializeComponent();

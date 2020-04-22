@@ -7,6 +7,52 @@
              x:Class="ACANApp.Views.PageInicio"
              Title="Inicio">
   <StackLayout Padding="10">
-    <Label Text="This is a detail page. To get the 'triple' line icon on each platform add a icon to each platform and update the 'Master' page with an Icon that references it."/>
-  </StackLayout>
+      <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+        <Label Text="Academia Central de Aikido de Natal" 
+           FontSize="25"
+           HorizontalTextAlignment="Center"/>
+        </Frame>
+        <Image Source="LabelInicioMock2.jpg"></Image>
+        <Label Text="&quot;Aikido é para o mundo inteiro&quot;"
+             FontSize="15"
+             HorizontalOptions="Center"
+             FontAttributes="Bold">
+        </Label>
+        <Label Text="Morihei Ueshiba" 
+               HorizontalOptions="Center"
+               FontAttributes="Italic">
+        </Label>
+        <Label Text="VISITE-NOS E EXPERIMENTE UMA SEMANA SEM COMPROMISSO"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center">
+        </Label>
+        <Image Source="AllMock.jpg"></Image>
+        <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
+        <Label Text="ACADEMIA CENTRAL DE AIKIDO DE NATAL (ACAN)"
+               FontSize="Micro"
+               FontAttributes="Bold"
+               HorizontalTextAlignment="Center">
+        </Label>
+        <Label Text="FILIADA À UNIÃO SUL AMERICANA DE AIKIDO KAWAI SHIHAN"
+               FontSize="Micro"
+               HorizontalTextAlignment="Center">
+        </Label>
+        <Label Text="Rua Prof. João Ferreira de Melo, 2978"
+               FontSize="Micro"
+               HorizontalTextAlignment="Center">
+        </Label>
+        <Label Text="Capim Macio - 59078-320 - NATAL, RN"
+               FontSize="Micro"
+               HorizontalTextAlignment="Center">
+        </Label>
+        <Label Text="E-mail: aikidonatal@gmail.com"
+               FontSize="Micro"
+               HorizontalTextAlignment="Center">
+        </Label>
+        <Label Text="Tel: (84) 2020 1104"
+               FontSize="Micro"
+               HorizontalTextAlignment="Center">
+        </Label>
+
+    </StackLayout>
 </ContentPage>
