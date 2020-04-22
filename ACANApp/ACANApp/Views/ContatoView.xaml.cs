@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageAikido : TabbedPage
+    public partial class ContatoView : ContentPage
     {
-        public PageAikido()
+        public ContatoView()
         {
             InitializeComponent();
         }

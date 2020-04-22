@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageCadastro : ContentPage
+    public partial class NossoDojoView : TabbedPage
     {
-        public PageCadastro()
+        public NossoDojoView()
         {
             InitializeComponent();
         }

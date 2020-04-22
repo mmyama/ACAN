@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ACANApp.Views.PageNossoDojo"
+             x:Class="ACANApp.Views.NossoDojoView"
             Title="ACAN">
   <!--Pages can be added as references or inline-->
   <ContentPage Title="Tab 1" />

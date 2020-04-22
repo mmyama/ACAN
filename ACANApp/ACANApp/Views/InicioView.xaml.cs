@@ -10,9 +10,13 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageNossoDojo : TabbedPage
+    public partial class InicioView : ContentPage
     {
-        public PageNossoDojo()
+        /*
+         * Falta:   - Banner superior móvel
+         *          - ícones com links para redes sociais
+         */
+        public InicioView()
         {
             InitializeComponent();
         }

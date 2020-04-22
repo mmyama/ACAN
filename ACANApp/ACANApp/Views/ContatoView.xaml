@@ -4,11 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ACANApp.Views.PageCadastro"
-             Title="Cadastro">
+             x:Class="ACANApp.Views.ContatoView"
+             Title="Contato">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Página Cadastro"
+            <Label Text="Página Contato"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageCultura : TabbedPage
+    public partial class CulturaView : TabbedPage
     {
-        public PageCultura()
+        public CulturaView()
         {
             InitializeComponent();
         }

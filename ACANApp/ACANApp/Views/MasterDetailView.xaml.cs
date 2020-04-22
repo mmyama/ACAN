@@ -15,7 +15,7 @@ namespace ACANApp.Views
         public MasterDetailView()
         {
             InitializeComponent();
-            Detail = new NavigationPage(new PageInicio());
+            Detail = new NavigationPage(new InicioView());
             MasterPage.ListView.ItemSelected += ListView_ItemSelected;
         }
 
@@ -28,28 +28,28 @@ namespace ACANApp.Views
             switch (item.Id)
             {
                 case 0:
-                    Detail = new NavigationPage(new PageInicio());
+                    Detail = new NavigationPage(new InicioView());
                     break;
                 case 1:
-                    Detail = new NavigationPage(new PageAikido());
+                    Detail = new NavigationPage(new AikidoView());
                     break;
                 case 2:
-                    Detail = new NavigationPage(new PageCultura());
+                    Detail = new NavigationPage(new CulturaView());
                     break;
                 case 3:
-                    Detail = new NavigationPage(new PageNossoDojo());
+                    Detail = new NavigationPage(new NossoDojoView());
                     break;
                 case 4:
-                    Detail = new NavigationPage(new PageFundador());
+                    Detail = new NavigationPage(new FundadorView());
                     break;
                 case 5:
-                    Detail = new NavigationPage(new PageKawai());
+                    Detail = new NavigationPage(new KawaiView());
                     break;
                 case 6:
-                    Detail = new NavigationPage(new PageCadastro());
+                    Detail = new NavigationPage(new CadastroView());
                     break;
                 case 7:
-                    Detail = new NavigationPage(new PageContato());
+                    Detail = new NavigationPage(new ContatoView());
                     break;
                 default:
                     break;

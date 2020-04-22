@@ -4,7 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="ACANApp.Views.PageInicio"
+             x:Class="ACANApp.Views.InicioView"
              Title="Inicio">
   <StackLayout Padding="10">
       <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">

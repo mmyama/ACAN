@@ -25,18 +25,38 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\MenuLateral.xaml.cs">
-      <DependentUpon>MenuLateral.xaml</DependentUpon>
+    <Compile Update="Views\MenuLateralView.xaml.cs">
+      <DependentUpon>MenuLateralView.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\PageInicio.xaml.cs">
-      <DependentUpon>PageInicio.xaml</DependentUpon>
+    <Compile Update="Views\AikidoView.xaml.cs">
+      <DependentUpon>AikidoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\InicioView.xaml.cs">
+      <DependentUpon>InicioView.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\MasterDetailView.xaml.cs">
       <DependentUpon>MasterDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\CadastroView.xaml.cs">
+      <DependentUpon>CadastroView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ContatoView.xaml.cs">
+      <DependentUpon>ContatoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\CulturaView.xaml.cs">
+      <DependentUpon>CulturaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\FundadorView.xaml.cs">
+      <DependentUpon>FundadorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\KawaiView.xaml.cs">
+      <DependentUpon>KawaiView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\NossoDojoView.xaml.cs">
+      <DependentUpon>NossoDojoView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -44,31 +64,31 @@
     <EmbeddedResource Update="Views\MasterDetailView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageAikido.xaml">
+    <EmbeddedResource Update="Views\AikidoView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageCadastro.xaml">
+    <EmbeddedResource Update="Views\CadastroView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageContato.xaml">
+    <EmbeddedResource Update="Views\ContatoView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageCultura.xaml">
+    <EmbeddedResource Update="Views\CulturaView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageFundador.xaml">
+    <EmbeddedResource Update="Views\FundadorView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageInicio.xaml">
+    <EmbeddedResource Update="Views\InicioView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\MenuLateral.xaml">
+    <EmbeddedResource Update="Views\MenuLateralView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageKawai.xaml">
+    <EmbeddedResource Update="Views\KawaiView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PageNossoDojo.xaml">
+    <EmbeddedResource Update="Views\NossoDojoView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

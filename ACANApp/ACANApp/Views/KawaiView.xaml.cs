@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageFundador : TabbedPage
+    public partial class KawaiView : ContentPage
     {
-        public PageFundador()
+        public KawaiView()
         {
             InitializeComponent();
         }

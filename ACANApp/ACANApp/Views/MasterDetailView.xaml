@@ -7,9 +7,9 @@
              x:Class="ACANApp.Views.MasterDetailView"
              xmlns:pages="clr-namespace:ACANApp.Views">
   <MasterDetailPage.Master>
-    <pages:MenuLateral x:Name="MasterPage" />
+    <pages:MenuLateralView x:Name="MasterPage" />
   </MasterDetailPage.Master>
   <MasterDetailPage.Detail>
-        <pages:PageInicio />
+        <pages:InicioView />
   </MasterDetailPage.Detail>
 </MasterDetailPage>

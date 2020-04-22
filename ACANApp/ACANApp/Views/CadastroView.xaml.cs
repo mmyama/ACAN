@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class PageContato : ContentPage
+    public partial class CadastroView : ContentPage
     {
-        public PageContato()
+        public CadastroView()
         {
             InitializeComponent();
         }

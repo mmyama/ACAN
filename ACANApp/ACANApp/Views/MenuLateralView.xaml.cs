@@ -13,11 +13,11 @@ using Xamarin.Forms.Xaml;
 namespace ACANApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MenuLateral : ContentPage
+    public partial class MenuLateralView : ContentPage
     {
         public ListView ListView;
 
-        public MenuLateral()
+        public MenuLateralView()
         {
             InitializeComponent();
 
