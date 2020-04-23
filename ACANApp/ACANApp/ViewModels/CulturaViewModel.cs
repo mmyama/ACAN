@@ -13,49 +13,49 @@ namespace ACANApp.ViewModels
         {
             get
             {
-                return TextosCultura.txtEspirito;
+                return TextosCultura.TXTESPIRITO;
             }
         }
         public string TextoHakama
         {
             get
             {
-                return TextosCultura.txtHakama;
+                return TextosCultura.TXTHAKAMA;
             }
         }
         public string TextoKimono
         {
             get
             {
-                return TextosCultura.txtKimono;
+                return TextosCultura.TXTKIMONO;
             }
         }
         public string TextoCaligrafia
         {
             get
             {
-                return TextosCultura.txtCaligrafia;
+                return TextosCultura.TXTCALIGRAFIA;
             }
         }
         public string TextoTienShen
         {
             get
             {
-                return TextosCultura.txtTienShen;
+                return TextosCultura.TXTTIENSHEN;
             }
         }
         public string TextoZanshin
         {
             get
             {
-                return TextosCultura.txtZanshin;
+                return TextosCultura.TXTZANSHIN;
             }
         }
         public string TextoSeiza
         {
             get
             {
-                return TextosCultura.txtSeiza;
+                return TextosCultura.TXTSEIZA;
             }
         }
     }

@@ -13,35 +13,35 @@ namespace ACANApp.ViewModels
         {
             get
             {
-                return TextosAikido.txtCaminho;
+                return TextosAikido.TXTCAMINHO;
             }
         }
         public string TextoFilosofia
         {
             get
             {
-                return TextosAikido.txtFilosofia;
+                return TextosAikido.TXTFILOSOFIA;
             }
         }
         public string TextoLivros
         {
             get
             {
-                return TextosAikido.txtLivros;
+                return TextosAikido.TXTLIVROS;
             }
         }
         public string TextoTecnicas
         {
             get
             {
-                return TextosAikido.txtTecnicas;
+                return TextosAikido.TXTECNICAS;
             }
         }
         public string TextoGlossario
         {
             get
             {
-                return TextosAikido.txtGlossario;
+                return TextosAikido.TXTGLOSSARIO;
             }
         }
 

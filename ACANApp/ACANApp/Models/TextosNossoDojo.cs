@@ -6,7 +6,7 @@ namespace ACANApp.Models
 {
     class TextosNossoDojo
     {
-		public const string txtEtiqueta =
+		public const string TXTETIQUETA =
 			":: TERMO DE ADESÃO PARA INGRESSO NA ACADEMIA CENTRAL DE AIKIDO " +
 				"DE NATAL/RN ::\n\nEtiqueta\n\nAs atitudes apropriadas desenvolvidas " +
 				"no treinamento de AIKIDO devem ser constantemente praticadas a partir " +

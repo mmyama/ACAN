@@ -6,7 +6,7 @@ namespace ACANApp.Models
 {
     public class TextosKawai
     {
-		public const string txtKawai =
+		public const string TXTKAWAI =
 			"\t\tReishin Kawai nasceu em Shimane, Japão, em 1931. Como praticante de artes " +
 			"marciais participou de uma viagem junto com o mestre Murashigue Aritomo, " +
 			"fundador da linha Hakoryu Aikido, de quem recebeu a incumbência de divulgar " +

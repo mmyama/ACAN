@@ -6,7 +6,7 @@ namespace ACANApp.Models
 {
     public class TextosCultura
     {
-		public const string txtEspirito =
+		public const string TXTESPIRITO =
 			"\t\tO Aikidô foi desenvolvido no Japão e portanto está profundamente " +
 			"enraizado nos princípios do modo de ser japonês.\n\t\tOs valores morais, " +
 			"obediência à hierarquia e observação às regras de cortesia, pontuam e " +
@@ -19,7 +19,7 @@ namespace ACANApp.Models
 			"as técnicas jamais ganharam vida.\n\t\tA prática abrange um aspecto mais " +
 			"amplo da vida, um meio de conviver com a sociedade e de se relacionar " +
 			"com a natureza em harmonia com o próprio corpo e com o universo.";
-		public const string txtHakama =
+		public const string TXTHAKAMA =
 			"\t\tHakama é uma peça tradicional do vestuário samurai. Usado sobre kimono " +
 			"branco, comum em outras artes marciais, seu uso é parte da tradição de " +
 			"muitas escolas de aikido. Existem diferentes estilos de hakama. O tipo usado " +
@@ -37,7 +37,7 @@ namespace ACANApp.Models
 			"duas atrás) têm o seguinte significado simbólico:\n\n1. (Yuuki) Coragem\n2. (Jin) " +
 			"Benevolência\n3. (Gi) Retidão\n4. (Rei) Cortesia\n5. (Makoto) Sinceridade\n6. " +
 			"(Chuugi) Lealdade\n7. (Meiyo) Honra";
-		public const string txtKimono =
+		public const string TXTKIMONO =
 			"\t\tO kimono que, literalmente, quer dizer \"veste\", é a tradicional vestimenta " +
 			"japonesa para homens e mulheres. Consiste numa ampla túnica de mangas compridas, " +
 			"cobrindo tudo, exceto os pés e apertada à cintura por uma tira de pano chamada " +
@@ -53,7 +53,7 @@ namespace ACANApp.Models
 			"retângulos vermelhos e brancos. A decoração inclui plantas, festões e pequenas " +
 			"pontes. Foi bordado em seda e fios de ouro, e traz o poético nome de \"flores e " +
 			"plantas das quatro estações\".";
-		public const string txtCaligrafia =
+		public const string TXTCALIGRAFIA =
 			"\t\tPara a maioria dos ocidentais, caligrafia nada mais significa do que, " +
 			"literalmente, escrita bonita. É usada em diplomas, cartões de felicitações, " +
 			"convites de aniversários e casamentos,. Para orientais, a caligrafia é uma " +
@@ -70,7 +70,7 @@ namespace ACANApp.Models
 			"o ts'au shu, o estilo da \"escrita relva\". Os interessantes ritmos criados " +
 			"entre o sólido das tintas e os espaços vazios do fundo, são, realmente arte em " +
 			"branco e preto, um ritmo de forma e espaço.";
-		public const string txtTienShen =
+		public const string TXTTIENSHEN =
 			"\t\tPinturas de bambus eram particularmente estimadas pela escola intelectual " +
 			"chamada \"da pintura de poeta\". Isto é fácil compreender se se lembra que a " +
 			"pintura chinesa derivou da escrita e da caligrafia, representações gráficas " +
@@ -80,7 +80,7 @@ namespace ACANApp.Models
 			"hastes delgadas e elegantes, de folhas pequenas, e constantemente se agitando, " +
 			"se prestam às pinceladas rápidas da caligrafia. Daí, talvez, o favor do motivo, " +
 			"sempre presente junto aos pintores, poetas e calígrafos.";
-		public const string txtZanshin =
+		public const string TXTZANSHIN =
 			"\t\tZanshin é o espírito que fica, que permanece sem se apegar, o esírito que está " +
 			"sempre vigilante. O Zanshin se aplica a todos os atos da vida. A beleza natural " +
 			"do corpo é o reflexo do treinamento do espírito na concentração dos gestos. O " +
@@ -88,7 +88,7 @@ namespace ACANApp.Models
 			"saúde do corpo e a habilidade das mãos, mas também a agilidade do cérebro. " +
 			"Através do exercício, os gestos tornam-se naturais e controlados e o corpo " +
 			"encontra sua beleza. A ação natural é inconsciente e perfeitamente bela.";
-		public const string txtSeiza =
+		public const string TXTSEIZA =
 			"O verdadeiro Zen é praticado sem motivação, sem finalidade, sem mesmo procurar " +
 			"o despertar. Não é preciso ir ao Japão para encontrar o autêntico ensinamento " +
 			"do Zen. O verdadeiro Zen é aqui e agora, no nosso corpo, no nosso espírito. Se " +
