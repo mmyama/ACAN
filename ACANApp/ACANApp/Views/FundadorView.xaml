@@ -14,7 +14,7 @@
                     <Label Text="O Fundador"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtFundador" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoFundador}" Margin="30" HorizontalOptions="CenterAndExpand"/>
                 <!--Adicionar outras fotos, mudar tamanho das fotos e modo de exibição (Grid?)-->
                 <Image Source="OSensei01.jpg"></Image>
             </StackLayout>
@@ -27,7 +27,7 @@
                     <Label Text="Aikido"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtAikido" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoAikido}" Margin="30" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ACANApp.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace ACANApp.Views
         public FundadorView()
         {
             InitializeComponent();
+            this.BindingContext = new FundadorViewModel();
         }
     }
 }

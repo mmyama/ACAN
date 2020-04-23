@@ -4,32 +4,10 @@ using System.Text;
 
 namespace ACANApp.Models
 {
-    class TextosFundador
+    public class TextosFundador
     {
-        private string txtFundador;
-        private string txtAikido;
-
-        public string TxtFundador
-        {
-            get { return txtFundador; }
-            set { txtFundador = value; }
-        }
-        public string TxtAikido
-        {
-            get { return txtAikido; }
-            set { txtAikido = value; }
-        }
-
-        public TextosFundador()
-        {
-            DefinicaoTextoFundador();
-            DefinicaoTextoAikido();
-        }
-
-        private void DefinicaoTextoFundador()
-        {
-            TxtFundador =
-                "\t\tMorihei Ueshiba nasceu a 14 de dezembro de 1883, no distrito de Motomachi " +
+        private const string txtFundador =
+            "\t\tMorihei Ueshiba nasceu a 14 de dezembro de 1883, no distrito de Motomachi " +
                 "na cidade de Tanabe, prefeitura de Wakayama, Japão. Quarto filho de Yoroko " +
                 "e Yuki Ueshiba. \n\t\tDurante a infância, Ueshiba recebeu excelente educação " +
                 "na escola primária de Tanabe.Desenvolveu um espírito refinado e um corpo saudável. " +
@@ -68,12 +46,8 @@ namespace ACANApp.Models
                 "do universo e soube que a fonte do Budo é o espírito de proteção a todas as coisas. Seguir o " +
                 "verdadeiro Budô é aceitar o espírito do universo, manter a paz na terra e produzir, proteger e " +
                 "cultivar corretamente todos os entes da natureza.";
-        }
-
-        private void DefinicaoTextoAikido()
-        {
-            txtAikido =
-                "\t\tEnquanto o fundador se devotava a estudos complementares e ao estabelecimento do novo " +
+        private const string txtAikido =
+            "\t\tEnquanto o fundador se devotava a estudos complementares e ao estabelecimento do novo " +
                 "caminho do Budô, o nome de Morihei Ueshiba e a fama de sua incrivel habilidade espalhava-se " +
                 "por todo o Japão.\n\t\tCom a ajuda de diversos colaboradores, em 1930 as instalações " +
                 "provisórias de treinamento foram ampliadas para incluir uma área de tatame de quase 500 m². " +
@@ -118,6 +92,14 @@ namespace ACANApp.Models
                 "OSensei, ainda que por pouco tempo, sentiam o coração tocado pela sua nobreza e força  " +
                 "espiritual, pela radiante pureza de sua compaixão e desvelo.";
 
+
+        public string TxtFundador
+        {
+            get { return txtFundador; }
+        }
+        public string TxtAikido
+        {
+            get { return txtAikido; }
         }
 
     }
