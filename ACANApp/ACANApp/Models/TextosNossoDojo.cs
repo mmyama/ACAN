@@ -66,7 +66,7 @@ namespace ACANApp.Models
 				"de Matrícula caso o aluno queira renovar o vínculo.Para renovar seu vínculo o aluno deverá quitar " +
 				"débitos anteriores com as devidas correções, caso seja constatado que houve presença por parte do aluno " +
 				"e o não pagamento do período em questão, paga - se então a Taxa de Matrícula para renovação do vínculo " +
-				"e efetua - se a contribuição mensal.\n17.Trancamento de matricula:\nO afastamento sem aviso prévio por " +
+				"e efetua - se a contribuição mensal.\n\n17.Trancamento de matricula:\nO afastamento sem aviso prévio por " +
 				"férias ou qualquer outro motivo não isenta o aluno de suas contribuições mensais.A opção de trancamento " +
 				"de matrícula permite ao aluno se afastar por até três meses mediante contribuição da Taxa de Trancamento" +
 				"(ver tabela na secretaria).Ao contribuir com a Taxa de Trancamento o aluno está concordando em contribuir " +
@@ -74,10 +74,10 @@ namespace ACANApp.Models
 				"Central de Aikido de Natal / RN.Se o prazo de afastamento for ultrapassado o aluno deverá se reinscrever " +
 				"na Academia mediante contribuição da Taxa de Matrícula para reabertura de cadastro, e pagamento do mês " +
 				"vigente. Se o aluno retornar antes do prazo máximo de trancamento, será feito o cálculo relativo ao tempo " +
-				"de afastamento e o valor restante será usado para crédito na próxima mensalidade.\n18.Taxa de Matrícula:" +
+				"de afastamento e o valor restante será usado para crédito na próxima mensalidade.\n\n18.Taxa de Matrícula:" +
 				"\nNa Academia Central de Aikido de Natal / RN não é cobrada a taxa de matricula para o primeiro ingresso " +
 				"na Academia(ver tabela na secretaria).Esta taxa será cobrada em caso de reingresso do aluno após afastamento " +
-				"sem nenhum aviso prévio ou se o prazo de trancamento de matricula for ultrapassado(ver clausula 17).\n19." +
+				"sem nenhum aviso prévio ou se o prazo de trancamento de matricula for ultrapassado(ver clausula 17).\n\n19." +
 				"Trocas de Faixas e Exames de Dans:\nA Academia realiza periodicamente encontros para demonstração de Troca " +
 				"de Faixas.Para participar destes eventos o aluno deverá ser convidado pelos professores titulares da" +
 				" Academia Central de Aikido de Natal / RN.Uma vez convidado o aluno deverá se dirigir à secretaria" +
@@ -85,7 +85,7 @@ namespace ACANApp.Models
 				"Faixas(ver tabela na secretaria).É necessário que o aluno esteja em dia com suas mensalidades para " +
 				"poder realizar sua inscrição, esteja tecnicamente apto e de acordo com a filosofia da Arte Aikido." +
 				"\nExames de Dans somente serão realizados perante banca de graduados acima de 4º Dan, representantes " +
-				"e dirigentes da Associação Sul Americana de Aikido Kawai Shihan.\n20.Kimonos e outros artefatos:\n" +
+				"e dirigentes da Associação Sul Americana de Aikido Kawai Shihan.\n\n20.Kimonos e outros artefatos:\n" +
 				"Para a prática do Aikido se faz necessário a utilização do Dogi, mas comumente conhecido como Kimono." +
 				" A única restrição quanto ao Dogi é que ele seja de cor branca.O aluno pode adquirir seu Dogi onde " +
 				"bem entender.\nCaso o haja interesse por parte do aluno a Academia realiza pedidos de Kimonos e outros " +
