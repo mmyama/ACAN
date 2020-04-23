@@ -6,7 +6,7 @@ namespace ACANApp.Models
 {
     public class TextosCultura
     {
-		private const string txtEspirito =
+		public const string txtEspirito =
 			"\t\tO Aikidô foi desenvolvido no Japão e portanto está profundamente " +
 			"enraizado nos princípios do modo de ser japonês.\n\t\tOs valores morais, " +
 			"obediência à hierarquia e observação às regras de cortesia, pontuam e " +
@@ -19,7 +19,7 @@ namespace ACANApp.Models
 			"as técnicas jamais ganharam vida.\n\t\tA prática abrange um aspecto mais " +
 			"amplo da vida, um meio de conviver com a sociedade e de se relacionar " +
 			"com a natureza em harmonia com o próprio corpo e com o universo.";
-		private const string txtHakama =
+		public const string txtHakama =
 			"\t\tHakama é uma peça tradicional do vestuário samurai. Usado sobre kimono " +
 			"branco, comum em outras artes marciais, seu uso é parte da tradição de " +
 			"muitas escolas de aikido. Existem diferentes estilos de hakama. O tipo usado " +
@@ -37,7 +37,7 @@ namespace ACANApp.Models
 			"duas atrás) têm o seguinte significado simbólico:\n\n1. (Yuuki) Coragem\n2. (Jin) " +
 			"Benevolência\n3. (Gi) Retidão\n4. (Rei) Cortesia\n5. (Makoto) Sinceridade\n6. " +
 			"(Chuugi) Lealdade\n7. (Meiyo) Honra";
-		private const string txtKimono =
+		public const string txtKimono =
 			"\t\tO kimono que, literalmente, quer dizer \"veste\", é a tradicional vestimenta " +
 			"japonesa para homens e mulheres. Consiste numa ampla túnica de mangas compridas, " +
 			"cobrindo tudo, exceto os pés e apertada à cintura por uma tira de pano chamada " +
@@ -53,7 +53,7 @@ namespace ACANApp.Models
 			"retângulos vermelhos e brancos. A decoração inclui plantas, festões e pequenas " +
 			"pontes. Foi bordado em seda e fios de ouro, e traz o poético nome de \"flores e " +
 			"plantas das quatro estações\".";
-		private const string txtCaligrafia =
+		public const string txtCaligrafia =
 			"\t\tPara a maioria dos ocidentais, caligrafia nada mais significa do que, " +
 			"literalmente, escrita bonita. É usada em diplomas, cartões de felicitações, " +
 			"convites de aniversários e casamentos,. Para orientais, a caligrafia é uma " +
@@ -70,7 +70,7 @@ namespace ACANApp.Models
 			"o ts'au shu, o estilo da \"escrita relva\". Os interessantes ritmos criados " +
 			"entre o sólido das tintas e os espaços vazios do fundo, são, realmente arte em " +
 			"branco e preto, um ritmo de forma e espaço.";
-		private const string txtTienShen =
+		public const string txtTienShen =
 			"\t\tPinturas de bambus eram particularmente estimadas pela escola intelectual " +
 			"chamada \"da pintura de poeta\". Isto é fácil compreender se se lembra que a " +
 			"pintura chinesa derivou da escrita e da caligrafia, representações gráficas " +
@@ -80,7 +80,7 @@ namespace ACANApp.Models
 			"hastes delgadas e elegantes, de folhas pequenas, e constantemente se agitando, " +
 			"se prestam às pinceladas rápidas da caligrafia. Daí, talvez, o favor do motivo, " +
 			"sempre presente junto aos pintores, poetas e calígrafos.";
-		private const string txtZanshin =
+		public const string txtZanshin =
 			"\t\tZanshin é o espírito que fica, que permanece sem se apegar, o esírito que está " +
 			"sempre vigilante. O Zanshin se aplica a todos os atos da vida. A beleza natural " +
 			"do corpo é o reflexo do treinamento do espírito na concentração dos gestos. O " +
@@ -88,7 +88,7 @@ namespace ACANApp.Models
 			"saúde do corpo e a habilidade das mãos, mas também a agilidade do cérebro. " +
 			"Através do exercício, os gestos tornam-se naturais e controlados e o corpo " +
 			"encontra sua beleza. A ação natural é inconsciente e perfeitamente bela.";
-		private const string txtSeiza =
+		public const string txtSeiza =
 			"O verdadeiro Zen é praticado sem motivação, sem finalidade, sem mesmo procurar " +
 			"o despertar. Não é preciso ir ao Japão para encontrar o autêntico ensinamento " +
 			"do Zen. O verdadeiro Zen é aqui e agora, no nosso corpo, no nosso espírito. Se " +
@@ -96,37 +96,6 @@ namespace ACANApp.Models
 			"natural. Não há nada para ser obtido. Nada para acontecer. Não procurar a " +
 			"verdade, não fugir à ilusão. Simplesmente estar presente. Aí, então, aparece " +
 			"a consciência profunda e pura, universal e ilimitada.";
-
-		public string TxtEspirito
-		{
-			get { return txtEspirito; }
-		}
-		public string TxtHakama
-		{
-			get { return txtHakama; }
-		}
-		public string TxtKimono
-		{
-			get { return txtKimono; }
-		}
-		public string TxtCaligrafia
-		{
-			get { return txtCaligrafia; }
-		}
-		public string TxtTienShen
-		{
-			get { return txtTienShen; }
-		}
-		public string TxtZanshin
-		{
-			get { return txtZanshin; }
-		}
-		public string TxtSeiza
-		{
-			get { return txtSeiza; }
-		}
-
-
 
 	}
 }

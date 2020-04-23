@@ -13,14 +13,14 @@ namespace ACANApp.ViewModels
         {
             get
             {
-                return TextosFundador.TxtFundador;
+                return TextosFundador.TXTFUNDADOR;
             }
         }
         public string TextoAikido
         {
             get
             {
-                return TextosFundador.TxtAikido;
+                return TextosFundador.TXTAIKIDO;
             }
         }
 
