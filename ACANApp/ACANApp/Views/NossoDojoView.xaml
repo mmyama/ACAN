@@ -61,7 +61,7 @@
                     <Label Text="Etiqueta"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtEtiqueta" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoEtiqueta}" Margin="30" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>

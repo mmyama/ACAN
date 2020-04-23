@@ -6,23 +6,8 @@ namespace ACANApp.Models
 {
     class TextosNossoDojo
     {
-		private string txtEtiqueta;
-
-		public string TxtEtiqueta
-		{
-			get { return txtEtiqueta; }
-			set { txtEtiqueta = value; }
-		}
-
-		public TextosNossoDojo()
-		{
-			DefinicaoTextoEtiqueta();
-		}
-
-		private void DefinicaoTextoEtiqueta()
-		{
-			txtEtiqueta =
-				":: TERMO DE ADESÃO PARA INGRESSO NA ACADEMIA CENTRAL DE AIKIDO " +
+		public const string txtEtiqueta =
+			":: TERMO DE ADESÃO PARA INGRESSO NA ACADEMIA CENTRAL DE AIKIDO " +
 				"DE NATAL/RN ::\n\nEtiqueta\n\nAs atitudes apropriadas desenvolvidas " +
 				"no treinamento de AIKIDO devem ser constantemente praticadas a partir " +
 				"da vivência e dos relacionamentos que cultivamos no DOJO.\nApesar de " +
@@ -106,6 +91,6 @@ namespace ACANApp.Models
 				"bem entender.\nCaso o haja interesse por parte do aluno a Academia realiza pedidos de Kimonos e outros " +
 				"artefatos necessários para o desenvolvimento do aluno nas aulas.Não é um comércio aberto, os pedidos " +
 				"serão realizados sob encomenda individual(ver condições junto à secretaria).";
-		}
+
 	}
 }
