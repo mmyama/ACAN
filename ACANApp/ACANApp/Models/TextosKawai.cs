@@ -20,10 +20,5 @@ namespace ACANApp.Models
 			"seu discípulo. Nessa ocasião, mestre Kawai recebeu treinamentos especiais do próprio " +
 			"Doshu por dois meses e muitas vezes teve por Uke o próprio Moriteru Ueshiba, atual Doshu.";
 
-		public string TxtKawai
-		{
-			get { return txtKawai; }
-		}
-
 	}
 }

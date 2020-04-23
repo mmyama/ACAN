@@ -13,7 +13,7 @@ namespace ACANApp.ViewModels
         {
             get
             {
-                return TextosKawai.TxtKawai;
+                return TextosKawai.txtKawai;
             }
         }
 
