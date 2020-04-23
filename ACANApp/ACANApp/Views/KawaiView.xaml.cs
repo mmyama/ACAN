@@ -19,8 +19,6 @@ namespace ACANApp.Views
         {
             InitializeComponent();
 
-            var kawai = new KawaiViewModel();
-                       
             this.BindingContext = new KawaiViewModel();
 
         }
