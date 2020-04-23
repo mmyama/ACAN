@@ -13,7 +13,7 @@
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="O Aikidô como Caminho" FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtCaminho" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoCaminho}" Margin="30" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -24,7 +24,7 @@
                     <Label Text="A Técnica Reflete a Filosofia"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtFilosofia" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoFilosofia}" Margin="30" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -35,18 +35,19 @@
                     <Label Text="Indicação de Livros"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtLivros" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoLivros}" Margin="30" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
     <ContentPage Title="Técnicas">
+        <!--Linkar ou embedar com videos mostrando as técnicas-->
         <ScrollView>
             <StackLayout>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="Técnicas"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtTecnicas" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoTecnicas}" Margin="30" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -57,7 +58,7 @@
                     <Label Text="Glossário"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="TxtGlossario" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="{Binding TextoGlossario}" Margin="30" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
