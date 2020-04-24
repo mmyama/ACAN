@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="ACANApp.Views.NossoDojoView"
-            Title="ACAN">
+            Title="Nosso Dojo">
     <ContentPage Title="Horários">
         <ScrollView>
             <StackLayout>
@@ -54,7 +54,20 @@
         </ScrollView>
     </ContentPage>
     <ContentPage Title="Localização"></ContentPage>
-    <ContentPage Title="Instrutores"></ContentPage>
+    <ContentPage Title="Instrutores">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Sensei"
+                                   FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Image Source="James01.jpg"></Image>
+                <Label Text="JAMES CARLOS ARAÚJO" FontSize="Large" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="5º DAN" FontSize="Medium" HorizontalOptions="Center"></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
     <ContentPage Title="Etiqueta">
         <ScrollView>
             <StackLayout>
@@ -66,7 +79,48 @@
             </StackLayout>
         </ScrollView>
     </ContentPage>
-    <ContentPage Title="Programação"></ContentPage>
+    <ContentPage Title="Programação">
+        <ScrollView>
+            <StackLayout>
+                <Label Text="JANEIRO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoJaneiro}" HorizontalOptions="Center"></Label>
+                <Label Text="FEVEREIRO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoFevereiro}" HorizontalOptions="Center"></Label>
+                <Label Text="MARÇO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoMarco}" HorizontalOptions="Center"></Label>
+                <Label Text="ABRIL" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoAbril}" HorizontalOptions="Center"></Label>
+                <Label Text="MAIO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoMaio}" HorizontalOptions="Center"></Label>
+                <Label Text="JUNHO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoJunho}" HorizontalOptions="Center"></Label>
+                <Label Text="JULHO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoJulho}" HorizontalOptions="Center"></Label>
+                <Label Text="AGOSTO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoAgosto}" HorizontalOptions="Center"></Label>
+                <Label Text="SETEMBRO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoSetembro}" HorizontalOptions="Center"></Label>
+                <Label Text="OUTUBRO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoOutubro}" HorizontalOptions="Center"></Label>
+                <Label Text="NOVEMBRO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoNovembro}" HorizontalOptions="Center"></Label>
+                <Label Text="DEZEMBRO" FontSize="Medium" FontAttributes="Bold"
+                       HorizontalOptions="Center"></Label>
+                <Label Text="{Binding TextoDezembro}" HorizontalOptions="Center"></Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
     <ContentPage Title="Dojos RN">
         <ScrollView>
             <StackLayout>
