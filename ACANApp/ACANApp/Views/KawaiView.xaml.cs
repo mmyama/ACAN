@@ -1,11 +1,9 @@
-﻿using ACANApp.Models;
-using ACANApp.ViewModels;
+﻿using ACANApp.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -20,9 +18,6 @@ namespace ACANApp.Views
             InitializeComponent();
 
             this.BindingContext = new KawaiViewModel();
-
         }
-
-
     }
 }

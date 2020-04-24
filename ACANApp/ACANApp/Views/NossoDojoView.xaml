@@ -14,22 +14,23 @@
                 </Frame>
                 <Label Text=""/>
                 <Label Text="MANHÃ" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
-                <Label Text="6:15 ás 7:30" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="6:15 às 7:30" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"/>
                 <Label Text="SEGUNDA, QUARTA e SEXTA" FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
                 <Label Text="NOITE" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-                <Label Text="19:00 ás 20:30" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="19:00 às 20:30" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 <Label Text="SEGUNDA A SEXTA" FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
-                <Label Text="20:30 ás 21:40" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="20:30 às 21:40" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 <Label Text="TERÇA E QUINTA" FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
+                <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="TREINOS ESPECIAIS" FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
                 <Label Text=""/>
                 <Label Text="SÁBADO" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
-                <Label Text="9:00 ás 10:00 (INFANTIL)" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="9:00 às 10:00 (INFANTIL)" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
                 <Label Text="A PARTIR DOS 7 ANOS" FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
                 <Label Text="10:00 ÀS 11:30" FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
