@@ -6,11 +6,39 @@
              mc:Ignorable="d"
              x:Class="ACANApp.Views.ContatoView"
              Title="Contato">
-    <ContentPage.Content>
+    <ScrollView>
         <StackLayout>
-            <Label Text="Página Contato"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="FALE CONOSCO" FontSize="Large" HorizontalTextAlignment="Center"/>
+
+            <Label Text="Contatos por telefone só minutos antes dos horários de treino ou logo após. Prefira preencher o formulário acima ou enviar um e-mail"
+                   HorizontalTextAlignment="Center" Margin="15,15,15,5"/>
+            <Label Text="aikidonatal@gmail.com" FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center"/>
+            <Label Text="teremos todo prazer em tirar qualquer dúvida." 
+                   HorizontalTextAlignment="Center"/>
+            <Label Text=""/>
+            <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text="ACADEMIA CENTRAL DE AIKIDO DE NATAL (ACAN)"
+                   FontSize="Micro"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center">
+            </Label>
+            <Label Text="Rua Prof. João Ferreira de Melo, 2978"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+            </Label>
+            <Label Text="Capim Macio - 59078-320 - NATAL, RN"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+            </Label>
+            <Label Text="E-mail: aikidonatal@gmail.com"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+            </Label>
+            <Label Text="Tel: (84) 2020 1104"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+            </Label>
         </StackLayout>
-    </ContentPage.Content>
+    </ScrollView>
 </ContentPage>
