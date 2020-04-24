@@ -169,7 +169,7 @@
         <ScrollView>
             <StackLayout>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
-                    <Label Text="NATAL:" FontSize="25" HorizontalOptions="Center"/>
+                    <Label Text="NATAL" FontSize="25" HorizontalOptions="Center"/>
                 </Frame>
                 <Label Text=""/>
                 <Label Text="ACADEMIA CENTRAL DE AIKIDO DE NATAL (ACAN)" 
@@ -203,7 +203,7 @@
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
                 <Label Text=""/>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
-                    <Label Text="SANTA CRUZ:" FontSize="25" HorizontalOptions="Center"/>
+                    <Label Text="SANTA CRUZ" FontSize="25" HorizontalOptions="Center"/>
                 </Frame>
                 <Label Text=""/>
                 <Label Text="ACADEMIA CENTRAL DE SANTA CRUZ" 
@@ -216,18 +216,20 @@
                 <Label Text=""/>
                 <Label Text=""/>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
-                    <Label Text="MOSSORÓ:" FontSize="25" HorizontalOptions="Center"/>
+                    <Label Text="MOSSORÓ" FontSize="25" HorizontalOptions="Center"/>
                 </Frame>
                 <Label Text=""/>
                 <Label Text="ACADEMIA CENTRAL DE AIKIDO DE MOSSORÓ (ACAM)" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
-                       Margin="15,15,15,15"/>
+                       Margin="15,15,15,15" HorizontalTextAlignment="Center"/>
                 <Label Text="Academia Atividade Fitness . Rua Amaro Duarte, 404 . Nova Betânia . 59607-030 . Mossoró, RN"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
-                <Label Text="E-mail: aikidomossoro@gmail.com . Fone: 84 3317 3894"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                <Label Text="E-mail: aikidomossoro@gmail.com"
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                <Label Text="Fone: 84 3317 3894"
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: Beethoven Marcelo Lima Feitosa Gouveia, 2º Dan"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
 
             </StackLayout>
         </ScrollView>
