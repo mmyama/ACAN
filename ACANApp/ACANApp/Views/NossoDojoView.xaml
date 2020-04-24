@@ -176,9 +176,9 @@
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        HorizontalTextAlignment="Center"  Margin="15,15,15,15"/>
                 <Label Text="Rua Prof. João Ferreira de Melo, 2978 . Capim Macio . 59078-320 . Natal, RN" 
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="E-mail: aikidonatal@gmail.com . Fone: (84) 2020 1104"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
@@ -186,21 +186,21 @@
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
                 <Label Text="Academia Movimento . Rua Apodi, 365 . Cidade Alta . Natal, RN" 
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Fone: (84) 9678 9720"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: Márcio Dantas, 4º Dan"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
                 <Label Text="PROJETO AIKIDO" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
                 <Label Text="Av. Miguel Castro, 126, Bairro Nossa Senhora de Nazaré, CEP 59062-000" 
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="E-mail: mvabrasil@yahoo.com.br"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: Marcus Vinicius Andrade Brasil, 3º Dan "
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="SANTA CRUZ" FontSize="25" HorizontalOptions="Center"/>
@@ -210,9 +210,9 @@
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
                 <Label Text="http://aikidosantacruzrn.blogspot.com/"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,15"/>
+                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
                 <Label Text=""/>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
