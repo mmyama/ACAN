@@ -15,8 +15,22 @@
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
                 <Label Text="{Binding TextoKawai}" Margin="30" HorizontalOptions="CenterAndExpand"/>
-                <!--Adicionar outras fotos, mudar tamanho das fotos e modo de exibição (Grid?)-->
-                <Image Source="kawai01.jpg"/>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Grid HorizontalOptions="CenterAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="200"/>
+                            <RowDefinition Height="100"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="kawai01.jpg" Grid.Row="0" Grid.Column="0"/>
+                        <Image Source="kawai02.jpg" Grid.Row="0" Grid.Column="1"/>
+                        <Image Source="kawai03.jpg" Grid.Row="1" Grid.Column="0"/>
+                        <Image Source="kawai04.jpg" Grid.Row="1" Grid.Column="1"/>
+                    </Grid>
+                </Frame>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
