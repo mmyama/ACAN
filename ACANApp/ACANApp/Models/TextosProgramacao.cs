@@ -4,6 +4,10 @@ using System.Text;
 
 namespace ACANApp.Models
 {
+    /*
+     * Os textos estão estáticos
+     * Definir se o app será atualizado anualmente ou acessar um BD
+     */
     public class TextosProgramacao
     {
         private string janeiro;

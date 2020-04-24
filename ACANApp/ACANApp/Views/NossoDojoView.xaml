@@ -53,7 +53,50 @@
             </StackLayout>
         </ScrollView>
     </ContentPage>
-    <ContentPage Title="Localização"></ContentPage>
+    <ContentPage Title="Localização">
+        <ScrollView>
+            <StackLayout>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Localização"
+                                   FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Image Source="Localizacao.jpg" Margin="15,15,15,5"></Image>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                    <Label Text="Mapa no Google"
+                                   FontSize="25" HorizontalTextAlignment="Center"/>
+                </Frame>
+                <Image Source="MapaGoogle.jpg" Margin="15,15,15,5"></Image>
+                <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
+                <Label Text=""/>
+                <Label Text="ACADEMIA CENTRAL DE AIKIDO DE NATAL (ACAN)"
+                   FontSize="Micro"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center">
+                </Label>
+                <Label Text="FILIADA À UNIÃO SUL AMERICANA DE AIKIDO KAWAI SHIHAN"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+                </Label>
+                <Label Text="Rua Prof. João Ferreira de Melo, 2978"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+                </Label>
+                <Label Text="Capim Macio - 59078-320 - NATAL, RN"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+                </Label>
+                <Label Text="E-mail: aikidonatal@gmail.com"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+                </Label>
+                <Label Text="Tel: (84) 2020 1104"
+                   FontSize="Micro"
+                   HorizontalTextAlignment="Center">
+                </Label>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
     <ContentPage Title="Instrutores">
         <ScrollView>
             <StackLayout>
@@ -65,6 +108,7 @@
                 <Label Text="JAMES CARLOS ARAÚJO" FontSize="Large" FontAttributes="Bold"
                        HorizontalOptions="Center"></Label>
                 <Label Text="5º DAN" FontSize="Medium" HorizontalOptions="Center"></Label>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage>
