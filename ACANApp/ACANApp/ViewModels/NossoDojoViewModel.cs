@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace ACANApp.ViewModels
 {
@@ -103,6 +105,21 @@ namespace ACANApp.ViewModels
                 return TextosProgramacao.Dezembro;
             }
         }
+
+        private EnviarEmail enviarEmail = new EnviarEmail();
+
+        public ICommand AbrirEmailCommand { get; set; }
+
+        public NossoDojoViewModel()
+        {
+            AbrirEmailCommand = new Command(AbrirEmail);
+        }
+
+        public async void AbrirEmail()
+        {
+            await enviarEmail.SendMail("aikidonatal@gmail.com");
+        }
+
 
     }
 }
