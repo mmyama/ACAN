@@ -85,9 +85,17 @@
                    FontSize="Micro"
                    HorizontalTextAlignment="Center">
                 </Label>
-                <Label Text="E-mail: aikidonatal@gmail.com"
-                   FontSize="Micro"
+                <Label FontSize="Micro" TextColor="Blue"
                    HorizontalTextAlignment="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: aikidonatal@gmail.com">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
                 </Label>
                 <Label Text="Tel: (84) 2020 1104"
                    FontSize="Micro"
@@ -177,7 +185,20 @@
                        HorizontalTextAlignment="Center"  Margin="15,15,15,15"/>
                 <Label Text="Rua Prof. João Ferreira de Melo, 2978 . Capim Macio . 59078-320 . Natal, RN" 
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: aikidonatal@gmail.com . Fone: (84) 2020 1104"
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: aikidonatal@gmail.com">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="aikidonatal@gmail.com"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Text="Fone: (84) 2020 1104"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center"/>
@@ -197,7 +218,7 @@
                        Margin="15,15,15,15"/>
                 <Label Text="Av. Miguel Castro, 126, Bairro Nossa Senhora de Nazaré, CEP 59062-000" 
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: mvabrasil@yahoo.com.br"
+                <Label Text="E-mail: mvabrasil@yahoo.com.br" TextColor="Blue"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: Marcus Vinicius Andrade Brasil, 3º Dan "
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
@@ -209,7 +230,7 @@
                 <Label Text="ACADEMIA CENTRAL DE SANTA CRUZ" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
-                <Label Text="http://aikidosantacruzrn.blogspot.com/"
+                <Label Text="http://aikidosantacruzrn.blogspot.com/" TextColor="Blue"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
@@ -224,7 +245,7 @@
                        Margin="15,15,15,15" HorizontalTextAlignment="Center"/>
                 <Label Text="Academia Atividade Fitness . Rua Amaro Duarte, 404 . Nova Betânia . 59607-030 . Mossoró, RN"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: aikidomossoro@gmail.com"
+                <Label Text="E-mail: aikidomossoro@gmail.com" TextColor="Blue"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Fone: 84 3317 3894"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>

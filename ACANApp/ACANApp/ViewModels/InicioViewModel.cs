@@ -18,10 +18,9 @@ namespace ACANApp.ViewModels
             AbrirEmailCommand = new Command(AbrirEmail);
         }
 
-
         public async void AbrirEmail()
         {
-            await enviarEmail.SendMail();
+            await enviarEmail.SendMail("aikidonatal@gmail.com");
         }
 
     }

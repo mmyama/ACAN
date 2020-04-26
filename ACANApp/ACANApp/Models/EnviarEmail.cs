@@ -9,13 +9,14 @@ namespace ACANApp.Models
     public class EnviarEmail
     {
 
-        public async Task SendMail()
+        public async Task SendMail(string endereço)
         {
             try
             {
                 var message = new EmailMessage
                 {
-                    To = { "aikidonatal@gmail.com" },
+                    //To = { "aikidonatal@gmail.com" },
+                    To = { endereço },
                 };
                 await Email.ComposeAsync(message);
             }

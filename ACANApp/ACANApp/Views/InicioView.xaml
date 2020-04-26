@@ -48,13 +48,14 @@
                    FontSize="Micro"
                    HorizontalTextAlignment="Center">
             </Label>
-            <Label FontSize="Micro"
+            <Label FontSize="Micro" TextColor="Blue"
                    HorizontalTextAlignment="Center">
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="E-mail: aikidonatal@gmail.com">
                             <Span.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="aikidonatal@gmail.com"/>
                             </Span.GestureRecognizers>
                         </Span>
                     </FormattedString>

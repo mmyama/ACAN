@@ -11,10 +11,9 @@ namespace ACANApp.ViewModels
 {
     public class ContatoViewModel
     {
+
         private EnviarEmail enviarEmail = new EnviarEmail();
-
         public ICommand AbrirEmailCommand { get; set; }
-
         public ContatoViewModel()
         {
             AbrirEmailCommand = new Command(AbrirEmail);
@@ -23,8 +22,7 @@ namespace ACANApp.ViewModels
         
         public async void AbrirEmail()
         {
-            await enviarEmail.SendMail();
+            await enviarEmail.SendMail("aikidonatal@gmail.com");
         }
-        
     }
 }
