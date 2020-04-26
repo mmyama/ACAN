@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
+using ACANApp.ViewModels;
 
 namespace ACANApp.Views
 {
@@ -15,6 +17,7 @@ namespace ACANApp.Views
         public ContatoView()
         {
             InitializeComponent();
+            this.BindingContext = new ContatoViewModel();
         }
     }
 }

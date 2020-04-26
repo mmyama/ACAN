@@ -9,11 +9,38 @@
     <ScrollView>
         <StackLayout>
             <Label Text="FALE CONOSCO" FontSize="Large" HorizontalTextAlignment="Center"/>
+            <!--Ajustar formatação-->
+            <Frame Padding="15,15" Margin="15,15,15,5">
+                <Entry Placeholder="Nome" Text="" ></Entry>
+            </Frame>
+            <Frame Padding="15,15" Margin="15,15,15,5">
+                <Entry Placeholder="Email" Text=""></Entry>
+            </Frame>
+            <Frame Padding="15,15" Margin="15,15,15,5">
+                <Entry Placeholder="Assunto" Text=""></Entry>
+            </Frame>
+            <Frame Padding="15,15" Margin="15,15,15,5">
+                <Entry Placeholder="Mensagem" Text=""></Entry>
+            </Frame>
+            <!--Linkar com alguma ação-->
+            <!--<Button Text="Enviar" Clicked="SendMail"></Button>-->
 
             <Label Text="Contatos por telefone só minutos antes dos horários de treino ou logo após. Prefira preencher o formulário acima ou enviar um e-mail"
                    HorizontalTextAlignment="Center" Margin="15,15,15,5"/>
-            <Label Text="aikidonatal@gmail.com" FontAttributes="Bold" 
-                   HorizontalTextAlignment="Center"/>
+            <!--<Label Text="aikidonatal@gmail.com" FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center"/>-->
+            <Label FontAttributes="Bold" 
+                   HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="E-mail: aikidonatal@gmail.com">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
             <Label Text="teremos todo prazer em tirar qualquer dúvida." 
                    HorizontalTextAlignment="Center"/>
             <Label Text=""/>
@@ -31,9 +58,17 @@
                    FontSize="Micro"
                    HorizontalTextAlignment="Center">
             </Label>
-            <Label Text="E-mail: aikidonatal@gmail.com"
-                   FontSize="Micro"
+            <Label FontSize="Micro"
                    HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="E-mail: aikidonatal@gmail.com">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
             </Label>
             <Label Text="Tel: (84) 2020 1104"
                    FontSize="Micro"
