@@ -203,6 +203,7 @@
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
+                
                 <Label Text="TYUGUI DOJO" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
@@ -213,6 +214,7 @@
                 <Label Text="Responsável: Márcio Dantas, 4º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
+                
                 <Label Text="PROJETO AIKIDO" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
@@ -234,23 +236,42 @@
                 <Label Text="Responsável: Marcus Vinicius Andrade Brasil, 3º Dan "
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
+                
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="SANTA CRUZ" FontSize="25" HorizontalOptions="Center"/>
                 </Frame>
                 <Label Text=""/>
+                
                 <Label Text="ACADEMIA CENTRAL DE SANTA CRUZ" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="http://aikidosantacruzrn.blogspot.com/">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                      CommandParameter="http://aikidosantacruzrn.blogspot.com/"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <!--
                 <Label Text="http://aikidosantacruzrn.blogspot.com/" TextColor="Blue"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                -->
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
                 <Label Text=""/>
+                
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="MOSSORÓ" FontSize="25" HorizontalOptions="Center"/>
                 </Frame>
                 <Label Text=""/>
+                
                 <Label Text="ACADEMIA CENTRAL DE AIKIDO DE MOSSORÓ (ACAM)" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15" HorizontalTextAlignment="Center"/>

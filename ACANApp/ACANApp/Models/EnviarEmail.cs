@@ -15,18 +15,17 @@ namespace ACANApp.Models
             {
                 var message = new EmailMessage
                 {
-                    //To = { "aikidonatal@gmail.com" },
                     To = { endereço },
                 };
                 await Email.ComposeAsync(message);
             }
-            catch (FeatureNotSupportedException e)
+            catch (FeatureNotSupportedException)
             {
-
+                throw;
             }
-            catch (Exception e)
+            catch (Exception)
             {
-
+                throw;
             }
         }
 
