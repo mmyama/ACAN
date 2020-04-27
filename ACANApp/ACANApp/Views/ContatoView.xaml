@@ -8,23 +8,36 @@
              Title="Contato">
     <ScrollView>
         <StackLayout>
+            <!--
             <Label Text="FALE CONOSCO" FontSize="Large" HorizontalTextAlignment="Center"/>
-            <!--Ajustar formatação-->
-            <Frame Padding="15,15" Margin="15,15,15,5">
-                <Entry Placeholder="Nome" Text="" ></Entry>
+                <Frame Margin="15,15,15,5" BackgroundColor="#f1f1f1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Row="0" Grid.Column="0">
+                        <Entry Placeholder="Nome" FontSize="Small"/>
+                    </Frame>
+                    <Frame Grid.Row="1" Grid.Column="0">
+                        <Entry Placeholder="Email" FontSize="Small"/>
+                    </Frame>
+                    <Frame Grid.Row="2" Grid.Column="0">
+                        <Entry Placeholder="Assunto" FontSize="Small"/>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1" Grid.RowSpan="3">
+                        <Editor Placeholder="Mensagem"></Editor>
+                    </Frame>
+                    <Button Text="Enviar" Grid.Row="3" Grid.ColumnSpan="2"></Button>
+                </Grid>
             </Frame>
-            <Frame Padding="15,15" Margin="15,15,15,5">
-                <Entry Placeholder="Email" Text=""></Entry>
-            </Frame>
-            <Frame Padding="15,15" Margin="15,15,15,5">
-                <Entry Placeholder="Assunto" Text=""></Entry>
-            </Frame>
-            <Frame Padding="15,15" Margin="15,15,15,5">
-                <Entry Placeholder="Mensagem" Text=""></Entry>
-            </Frame>
-            <!--Linkar com alguma ação-->
-            <!--<Button Text="Enviar" Clicked="SendMail"></Button>-->
-
+            -->
             <Label Text="Contatos por telefone só minutos antes dos horários de treino ou logo após. Prefira preencher o formulário acima ou enviar um e-mail"
                    HorizontalTextAlignment="Center" Margin="15,15,15,5"/>
             <Label FontAttributes="Bold" TextColor="Blue"

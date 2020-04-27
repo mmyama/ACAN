@@ -218,8 +218,19 @@
                        Margin="15,15,15,15"/>
                 <Label Text="Av. Miguel Castro, 126, Bairro Nossa Senhora de Nazaré, CEP 59062-000" 
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: mvabrasil@yahoo.com.br" TextColor="Blue"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: mvabrasil@yahoo.com.br">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="mvabrasil@yahoo.com"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
                 <Label Text="Responsável: Marcus Vinicius Andrade Brasil, 3º Dan "
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
@@ -245,8 +256,19 @@
                        Margin="15,15,15,15" HorizontalTextAlignment="Center"/>
                 <Label Text="Academia Atividade Fitness . Rua Amaro Duarte, 404 . Nova Betânia . 59607-030 . Mossoró, RN"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: aikidomossoro@gmail.com" TextColor="Blue"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: aikidomossoro@gmail.com">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="aikidomossoro@gmail.com"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
                 <Label Text="Fone: 84 3317 3894"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: Beethoven Marcelo Lima Feitosa Gouveia, 2º Dan"
