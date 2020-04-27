@@ -65,7 +65,12 @@
                     <Label Text="Mapa no Google"
                                    FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Image Source="MapaGoogle.jpg" Margin="15,15,15,5"></Image>
+                <Image Source="MapaGoogle.jpg" Margin="15,15,15,5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                          CommandParameter="http://bit.ly/2YcBbqb"/>
+                    </Image.GestureRecognizers>
+                </Image>
                 <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
                 <Label Text=""/>
                 <Label Text="ACADEMIA CENTRAL DE AIKIDO DE NATAL (ACAN)"
@@ -91,7 +96,8 @@
                         <FormattedString>
                             <Span Text="E-mail: aikidonatal@gmail.com">
                                 <Span.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                          CommandParameter="aikidonata@gmail.com"/>
                                 </Span.GestureRecognizers>
                             </Span>
                         </FormattedString>
