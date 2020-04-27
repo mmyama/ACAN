@@ -5739,6 +5739,18 @@ namespace ACANApp.Droid
 			// aapt resource value: 0x7F07006B
 			public const int icon = 2131165291;
 			
+			// aapt resource value: 0x7F07006C
+			public const int iconeFacebook = 2131165292;
+			
+			// aapt resource value: 0x7F07006D
+			public const int iconeInstagram = 2131165293;
+			
+			// aapt resource value: 0x7F07006E
+			public const int iconeWordpress = 2131165294;
+			
+			// aapt resource value: 0x7F07006F
+			public const int iconeYoutube = 2131165295;
+			
 			// aapt resource value: 0x7F070068
 			public const int ic_mtrl_chip_checked_black = 2131165288;
 			
@@ -5751,14 +5763,14 @@ namespace ACANApp.Droid
 			// aapt resource value: 0x7F070001
 			public const int James01 = 2131165185;
 			
-			// aapt resource value: 0x7F07006C
-			public const int kawai01 = 2131165292;
+			// aapt resource value: 0x7F070070
+			public const int kawai01 = 2131165296;
 			
-			// aapt resource value: 0x7F07006D
-			public const int kawai02 = 2131165293;
+			// aapt resource value: 0x7F070071
+			public const int kawai02 = 2131165297;
 			
-			// aapt resource value: 0x7F07006E
-			public const int kawai03 = 2131165294;
+			// aapt resource value: 0x7F070072
+			public const int kawai03 = 2131165298;
 			
 			// aapt resource value: 0x7F070002
 			public const int Kawai04 = 2131165186;
@@ -5778,50 +5790,50 @@ namespace ACANApp.Droid
 			// aapt resource value: 0x7F070007
 			public const int MapaGoogle = 2131165191;
 			
-			// aapt resource value: 0x7F07006F
-			public const int mtrl_snackbar_background = 2131165295;
-			
-			// aapt resource value: 0x7F070070
-			public const int mtrl_tabs_default_indicator = 2131165296;
-			
-			// aapt resource value: 0x7F070071
-			public const int navigation_empty_icon = 2131165297;
-			
-			// aapt resource value: 0x7F070072
-			public const int notification_action_background = 2131165298;
-			
 			// aapt resource value: 0x7F070073
-			public const int notification_bg = 2131165299;
+			public const int mtrl_snackbar_background = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int notification_bg_low = 2131165300;
+			public const int mtrl_tabs_default_indicator = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int notification_bg_low_normal = 2131165301;
+			public const int navigation_empty_icon = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int notification_bg_low_pressed = 2131165302;
+			public const int notification_action_background = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int notification_bg_normal = 2131165303;
+			public const int notification_bg = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int notification_bg_normal_pressed = 2131165304;
+			public const int notification_bg_low = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int notification_icon_background = 2131165305;
+			public const int notification_bg_low_normal = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int notification_template_icon_bg = 2131165306;
+			public const int notification_bg_low_pressed = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int notification_template_icon_low_bg = 2131165307;
+			public const int notification_bg_normal = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int notification_tile_bg = 2131165308;
+			public const int notification_bg_normal_pressed = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int notify_panel_notification_icon_bg = 2131165309;
+			public const int notification_icon_background = 2131165309;
+			
+			// aapt resource value: 0x7F07007E
+			public const int notification_template_icon_bg = 2131165310;
+			
+			// aapt resource value: 0x7F07007F
+			public const int notification_template_icon_low_bg = 2131165311;
+			
+			// aapt resource value: 0x7F070080
+			public const int notification_tile_bg = 2131165312;
+			
+			// aapt resource value: 0x7F070081
+			public const int notify_panel_notification_icon_bg = 2131165313;
 			
 			// aapt resource value: 0x7F070008
 			public const int OSensei01 = 2131165192;
@@ -5835,11 +5847,11 @@ namespace ACANApp.Droid
 			// aapt resource value: 0x7F07000B
 			public const int OSensei05 = 2131165195;
 			
-			// aapt resource value: 0x7F07007E
-			public const int tooltip_frame_dark = 2131165310;
+			// aapt resource value: 0x7F070082
+			public const int tooltip_frame_dark = 2131165314;
 			
-			// aapt resource value: 0x7F07007F
-			public const int tooltip_frame_light = 2131165311;
+			// aapt resource value: 0x7F070083
+			public const int tooltip_frame_light = 2131165315;
 			
 			static Drawable()
 			{
