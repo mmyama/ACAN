@@ -65,7 +65,12 @@
                     <Label Text="Mapa no Google"
                                    FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Image Source="MapaGoogle.jpg" Margin="15,15,15,5"></Image>
+                <Image Source="MapaGoogle.jpg" Margin="15,15,15,5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                          CommandParameter="http://bit.ly/2YcBbqb"/>
+                    </Image.GestureRecognizers>
+                </Image>
                 <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
                 <Label Text=""/>
                 <Label Text="ACADEMIA CENTRAL DE AIKIDO DE NATAL (ACAN)"
@@ -85,14 +90,63 @@
                    FontSize="Micro"
                    HorizontalTextAlignment="Center">
                 </Label>
-                <Label Text="E-mail: aikidonatal@gmail.com"
-                   FontSize="Micro"
+                <Label FontSize="Micro" TextColor="Blue"
                    HorizontalTextAlignment="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: aikidonatal@gmail.com">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                          CommandParameter="aikidonata@gmail.com"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
                 </Label>
                 <Label Text="Tel: (84) 2020 1104"
                    FontSize="Micro"
                    HorizontalTextAlignment="Center">
                 </Label>
+
+                <Label Text=""/>
+                <Grid HorizontalOptions="Center">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="50"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="iconeFacebook.jpg" Grid.Row="0" Grid.Column="0">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://facebook.com/Aikidonatal"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image Source="iconeYoutube.jpg" Grid.Row="0" Grid.Column="1">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://youtube.com/channel/UCfSEi8b193Gyk3BGiumxA_A"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="iconeInstagram.jpg" Grid.Row="0" Grid.Column="2">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://instagram.com/aikidonatal"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image Source="iconeWordpress.jpg" Grid.Row="0" Grid.Column="3">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://impressione.wordpress.com/"/>
+                        </Image.GestureRecognizers>
+
+                    </Image>
+                </Grid>
 
             </StackLayout>
         </ScrollView>
@@ -177,11 +231,25 @@
                        HorizontalTextAlignment="Center"  Margin="15,15,15,15"/>
                 <Label Text="Rua Prof. João Ferreira de Melo, 2978 . Capim Macio . 59078-320 . Natal, RN" 
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: aikidonatal@gmail.com . Fone: (84) 2020 1104"
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: aikidonatal@gmail.com">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="aikidonatal@gmail.com"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Text="Fone: (84) 2020 1104"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center"/>
                 <Label Text=""/>
+                
                 <Label Text="TYUGUI DOJO" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
@@ -192,40 +260,79 @@
                 <Label Text="Responsável: Márcio Dantas, 4º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
+                
                 <Label Text="PROJETO AIKIDO" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
                 <Label Text="Av. Miguel Castro, 126, Bairro Nossa Senhora de Nazaré, CEP 59062-000" 
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: mvabrasil@yahoo.com.br"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: mvabrasil@yahoo.com.br">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="mvabrasil@yahoo.com"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
                 <Label Text="Responsável: Marcus Vinicius Andrade Brasil, 3º Dan "
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
+                
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="SANTA CRUZ" FontSize="25" HorizontalOptions="Center"/>
                 </Frame>
                 <Label Text=""/>
+                
                 <Label Text="ACADEMIA CENTRAL DE SANTA CRUZ" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15"/>
-                <Label Text="http://aikidosantacruzrn.blogspot.com/"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="http://aikidosantacruzrn.blogspot.com/">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                      CommandParameter="http://aikidosantacruzrn.blogspot.com/"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
                 <Label Text="Responsável: James Carlos Araújo, 5º Dan"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text=""/>
                 <Label Text=""/>
+                
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
                     <Label Text="MOSSORÓ" FontSize="25" HorizontalOptions="Center"/>
                 </Frame>
                 <Label Text=""/>
+                
                 <Label Text="ACADEMIA CENTRAL DE AIKIDO DE MOSSORÓ (ACAM)" 
                        FontSize="Medium" FontAttributes="Bold" HorizontalOptions="Center"
                        Margin="15,15,15,15" HorizontalTextAlignment="Center"/>
                 <Label Text="Academia Atividade Fitness . Rua Amaro Duarte, 404 . Nova Betânia . 59607-030 . Mossoró, RN"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
-                <Label Text="E-mail: aikidomossoro@gmail.com"
-                       FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
+                <Label FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"
+                       TextColor="Blue">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="E-mail: aikidomossoro@gmail.com">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="aikidomossoro@gmail.com"/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
                 <Label Text="Fone: 84 3317 3894"
                        FontSize="Small" HorizontalTextAlignment="Center" Margin="15,15,15,1"/>
                 <Label Text="Responsável: Beethoven Marcelo Lima Feitosa Gouveia, 2º Dan"

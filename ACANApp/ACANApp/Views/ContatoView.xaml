@@ -8,12 +8,50 @@
              Title="Contato">
     <ScrollView>
         <StackLayout>
+            <!--
             <Label Text="FALE CONOSCO" FontSize="Large" HorizontalTextAlignment="Center"/>
-
+                <Frame Margin="15,15,15,5" BackgroundColor="#f1f1f1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="75"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Frame Grid.Row="0" Grid.Column="0">
+                        <Entry Placeholder="Nome" FontSize="Small"/>
+                    </Frame>
+                    <Frame Grid.Row="1" Grid.Column="0">
+                        <Entry Placeholder="Email" FontSize="Small"/>
+                    </Frame>
+                    <Frame Grid.Row="2" Grid.Column="0">
+                        <Entry Placeholder="Assunto" FontSize="Small"/>
+                    </Frame>
+                    <Frame Grid.Row="0" Grid.Column="1" Grid.RowSpan="3">
+                        <Editor Placeholder="Mensagem"></Editor>
+                    </Frame>
+                    <Button Text="Enviar" Grid.Row="3" Grid.ColumnSpan="2"></Button>
+                </Grid>
+            </Frame>
+            -->
             <Label Text="Contatos por telefone só minutos antes dos horários de treino ou logo após. Prefira preencher o formulário acima ou enviar um e-mail"
                    HorizontalTextAlignment="Center" Margin="15,15,15,5"/>
-            <Label Text="aikidonatal@gmail.com" FontAttributes="Bold" 
-                   HorizontalTextAlignment="Center"/>
+            <Label FontAttributes="Bold" TextColor="Blue"
+                   HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="E-mail: aikidonatal@gmail.com">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
             <Label Text="teremos todo prazer em tirar qualquer dúvida." 
                    HorizontalTextAlignment="Center"/>
             <Label Text=""/>
@@ -31,9 +69,17 @@
                    FontSize="Micro"
                    HorizontalTextAlignment="Center">
             </Label>
-            <Label Text="E-mail: aikidonatal@gmail.com"
-                   FontSize="Micro"
+            <Label FontSize="Micro" TextColor="Blue"
                    HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="E-mail: aikidonatal@gmail.com">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
             </Label>
             <Label Text="Tel: (84) 2020 1104"
                    FontSize="Micro"

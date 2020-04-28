@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace ACANApp.ViewModels
 {
@@ -104,5 +106,30 @@ namespace ACANApp.ViewModels
             }
         }
 
+        private EnviarEmail enviarEmail = new EnviarEmail();
+        private AbrirNavegador abrirNavegador = new AbrirNavegador();
+
+        
+        public ICommand AbrirEmailCommand { get; private set; }
+        public ICommand AbrirNavegadorCommand { get; set; }
+
+        public NossoDojoViewModel()
+        {
+            AbrirEmailCommand = new Command<string>(AbrirEmail);
+            AbrirNavegadorCommand = new Command<string>(AbrirNavegador);
+        }
+
+        public async void AbrirEmail(string email)
+        {
+            await enviarEmail.SendMail(email);
+        }
+        
+        public async void AbrirNavegador(string endereco)
+        {
+            await abrirNavegador.OpenBrowser(endereco);
+        }
+        
+
     }
 }
+
