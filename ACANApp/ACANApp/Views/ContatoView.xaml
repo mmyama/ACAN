@@ -38,6 +38,26 @@
                 </Grid>
             </Frame>
             -->
+            <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                <Label Text="Localização"
+                                   FontSize="25" HorizontalTextAlignment="Center"/>
+            </Frame>
+            <Image Source="Localizacao.jpg" Margin="15,15,15,5"></Image>
+            <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
+                <Label Text="Mapa no Google"
+                                   FontSize="25" HorizontalTextAlignment="Center"/>
+            </Frame>
+            <Image Source="MapaGoogle2.jpg" Margin="15,15,15,5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                          CommandParameter="http://bit.ly/2YcBbqb"/>
+                </Image.GestureRecognizers>
+            </Image>
+            <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text=""/>
+
+            <Label Text=""/>
+
             <Label Text="Contatos por telefone só minutos antes dos horários de treino ou logo após. Prefira preencher o formulário acima ou enviar um e-mail"
                    HorizontalTextAlignment="Center" Margin="15,15,15,5"/>
             <Label FontAttributes="Bold" TextColor="Blue"
@@ -46,7 +66,8 @@
                     <FormattedString>
                         <Span Text="E-mail: aikidonatal@gmail.com">
                             <Span.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="aikidonatal@gmail.com"/>
                             </Span.GestureRecognizers>
                         </Span>
                     </FormattedString>
@@ -75,7 +96,8 @@
                     <FormattedString>
                         <Span Text="E-mail: aikidonatal@gmail.com">
                             <Span.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"/>
+                                <TapGestureRecognizer Command="{Binding AbrirEmailCommand}"
+                                                      CommandParameter="aikidonatal@gmail.com"/>
                             </Span.GestureRecognizers>
                         </Span>
                     </FormattedString>
@@ -85,6 +107,46 @@
                    FontSize="Micro"
                    HorizontalTextAlignment="Center">
             </Label>
+            <Grid HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="iconeFacebook.jpg" Grid.Row="0" Grid.Column="0">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://facebook.com/Aikidonatal"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="iconeYoutube.jpg" Grid.Row="0" Grid.Column="1">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://youtube.com/channel/UCfSEi8b193Gyk3BGiumxA_A"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Image Source="iconeInstagram.jpg" Grid.Row="0" Grid.Column="2">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://instagram.com/aikidonatal"/>
+                    </Image.GestureRecognizers>
+                </Image>
+
+                <Image Source="iconeWordpress.jpg" Grid.Row="0" Grid.Column="3">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding AbrirNavegadorCommand}"
+                                                  CommandParameter="http://impressione.wordpress.com/"/>
+                    </Image.GestureRecognizers>
+
+                </Image>
+            </Grid>
+            <Label Text=""/>
+
         </StackLayout>
     </ScrollView>
 </ContentPage>

@@ -13,16 +13,24 @@ namespace ACANApp.ViewModels
     {
 
         private EnviarEmail enviarEmail = new EnviarEmail();
+        private AbrirNavegador abrirNavegador = new AbrirNavegador();
         public ICommand AbrirEmailCommand { get; set; }
+        public ICommand AbrirNavegadorCommand { get; set; }
         public ContatoViewModel()
         {
-            AbrirEmailCommand = new Command(AbrirEmail);
+            AbrirEmailCommand = new Command<string>(AbrirEmail);
+            AbrirNavegadorCommand = new Command<string>(AbrirNavegador);
         }
 
-        
-        public async void AbrirEmail()
+
+        public async void AbrirEmail(string email)
         {
-            await enviarEmail.SendMail("aikidonatal@gmail.com");
+            await enviarEmail.SendMail(email);
+        }
+
+        public async void AbrirNavegador(string endereco)
+        {
+            await abrirNavegador.OpenBrowser(endereco);
         }
     }
 }

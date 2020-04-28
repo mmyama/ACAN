@@ -10,7 +10,7 @@ namespace ACANApp.Models
             "Morihei Ueshiba nasceu a 14 de dezembro de 1883, no distrito de Motomachi " +
             "na cidade de Tanabe, prefeitura de Wakayama, Japão. Quarto filho de Yoroko " +
             "e Yuki Ueshiba. \n\t\tDurante a infância, Ueshiba recebeu excelente educação " +
-            "na escola primária de Tanabe.Desenvolveu um espírito refinado e um corpo saudável. " +
+            "na escola primária de Tanabe. Desenvolveu um espírito refinado e um corpo saudável. " +
             "Ainda jovem teve contato com diversas formas de artes marciais e desposou Hatsu " +
             "Itokawa, a quem conhecia desde a infância. \n\t\tCom a idade de 20 anos, alistou - se " +
             "no exército e serviu no 37º regimento da quarta divisão de Osaka.Durante a guerra russo " +
@@ -20,19 +20,19 @@ namespace ACANApp.Models
             "abandonado a carreira militar rumou junto a um grupo de 80 pessoas para a aldeia de " +
             "Shiratake no condado de Monbetsu. Por volta dos 30 anos era considerado uma espécie de " +
             "líder da comunidade. \n\t\tEm 1915 conheceu Sogako Takeda, professor da escola Daito de " +
-            "Jujutsu, que por acaso passava pela região.Impressionado com a técnica de Takeda, adotou-o " +
+            "Jujutsu, que por acaso passava pela região. Impressionado com a técnica de Takeda, adotou-o " +
             "como mestre e passaram a viver juntos num treinamento intensivo.\n\t\tEm novembro do seu 36º " +
-            "ano de vida Ueshiba recebeu notícias que o pai adoecera.Deixou tudo que possuía ao mestre " +
+            "ano de vida Ueshiba recebeu notícias que o pai adoecera. Deixou tudo que possuía ao mestre " +
             "Takeda em agradecimento pelo o que dele aprendera, e saiu de Hokaido.\n\t\tEntretanto, no " +
             "caminho de volta para Tanabe, ouviu sobre um homem chamado Onisaburo Degushi, da seita " +
-            "xintoísta conhecida como Omoto - Kyo.Na esperança de um milagre, Ueshiba foi para Ayabe, " +
+            "xintoísta conhecida como Omoto - Kyo. Na esperança de um milagre, Ueshiba foi para Ayabe, " +
             "perto de Kyoto, a fim de pedir orações para melhorar a saúde crítica do seu pai.\n" +
             "\t\tAo chegar a Tanabe, soube que o pai falecera, sua dor foi profunda, e Ueshiba passava " +
             "cada vez mais tempo mergulhado em preces e meditações.Logo seus pensamento se voltaram para " +
             "a ternura de Degushi e sua abordagem revolucinária dos ensinamentos espirituais tradicionais. " +
-            "Mudou - se com a família para Ayabe e adotou a vida religiosa da Omoto-Kyo.Degushi amava e " +
+            "Mudou - se com a família para Ayabe e adotou a vida religiosa da Omoto-Kyo. Degushi amava e " +
             "respeitava Ueshiba, incentivando-o a seguir o Budô como caminho para a sua vida.\n" +
-            "\t\tEm 1923, o fundador deu à sua arte o nome oficial de Aiki - Bujutsu.No ano seguinte, ele " +
+            "\t\tEm 1923, o fundador deu à sua arte o nome oficial de Aiki - Bujutsu. No ano seguinte, ele " +
             "acompanhou Degushi a Manchúria, buscando um lugar que servisse de centro espiritual para um " +
             "mundo de cooperação entre as cinco raças e cores, visão da Omoto - Kyo baseada na idéia de que " +
             "todos os ensinamentos tem a mesma origem. Nesta viagem correu risco de vida salvando - se " +

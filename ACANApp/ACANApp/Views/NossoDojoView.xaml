@@ -53,7 +53,7 @@
             </StackLayout>
         </ScrollView>
     </ContentPage>
-    <ContentPage Title="Localização">
+    <!--<ContentPage Title="Localização">
         <ScrollView>
             <StackLayout>
                 <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="#f2f2f2">
@@ -150,7 +150,7 @@
 
             </StackLayout>
         </ScrollView>
-    </ContentPage>
+    </ContentPage>-->
     <ContentPage Title="Instrutores">
         <ScrollView>
             <StackLayout>
