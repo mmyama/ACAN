@@ -44,6 +44,13 @@ namespace ACANApp.ViewModels
                 return TextosAikido.TXTGLOSSARIO;
             }
         }
+        public string TextoAtaques
+        {
+            get
+            {
+                return TextosAikido.TXTATAQUES;
+            }
+        }
 
     }
 }

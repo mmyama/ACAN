@@ -47,7 +47,338 @@
                     <Label Text="Técnicas"
                            FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Label Text="{Binding TextoTecnicas}" Margin="30" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="ATAQUES" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                       FontSize="20"/>
+                <Grid Padding="15,15" Margin="15,15,15,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Text="Pegadas de ombro" FontSize="12" FontAttributes="Bold"
+                           HorizontalTextAlignment="Center" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="- Katatori" FontSize="12" HorizontalOptions="Center"
+                           Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="- Ryokatatori" FontSize="12" HorizontalOptions="Center"
+                           Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="- Ushiro Ryokatatori" FontSize="12" HorizontalOptions="Center"
+                           Grid.Row="3" Grid.Column="0"/>
+                    <Label Text="- Ushiro tori" FontSize="12" HorizontalOptions="Center"
+                           Grid.Row="4" Grid.Column="0"/>
+
+                    <Label Text="Pegadas de gola" FontSize="12" FontAttributes="Bold"
+                           HorizontalTextAlignment="Center" Grid.Column="1"/>
+                    <Label Text="- Kata Eritori" FontSize="12" HorizontalOptions="Center"
+                           Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="- Ushiro Kata Eritori" FontSize="12" HorizontalOptions="Center"
+                           Grid.Row="2" Grid.Column="1"/>
+                </Grid>
+                <Grid Padding="15,15" Margin="15,15,15,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                        <RowDefinition Height="15"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Label Text="Pegadas de punho" FontSize="12" FontAttributes="Bold"
+                           HorizontalTextAlignment="Center" Grid.Column="0"/>
+                    <Label Text="- Gyaku Katatetori" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="- Ai Hanmi Katatetori" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="- Morotetori" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="3" Grid.Column="0"/>
+                    <Label Text="- Ryotedori" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="4" Grid.Column="0"/>
+                    <Label Text="- Ushiro Ryotedori" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="5" Grid.Column="0"/>
+                    <Label Text="- Ushiro Ryotedori" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="6" Grid.Column="0"/>
+                    <Label Text="kubi shime" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="7" Grid.Column="0"/>
+
+
+                    <Label Text="Ataques em pegadas" FontSize="12" FontAttributes="Bold"
+                           HorizontalTextAlignment="Center" Grid.Column="1"/>
+                    <Label Text="- Shomen Uchi" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="1" Grid.Column="1"/>
+                    <Label Text="- Yokomen Uchi" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="2" Grid.Column="1"/>
+                    <Label Text="- Shomen Tsuki" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="3" Grid.Column="1"/>
+                    <Label Text="- Choku Tsuki" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="4" Grid.Column="1"/>
+                    <Label Text="- Gedan Tsuki" FontSize="12"  HorizontalOptions="Center"
+                           Grid.Row="5" Grid.Column="1"/>
+                </Grid>
+                <Label Text=""/>
+                <Label Text="{Binding TextoAtaques}" Margin="30" 
+                       HorizontalOptions="CenterAndExpand"/>
+                
+                <Label Text="KIHON" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                       FontSize="25"/>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Orange">
+                    <Label Text="6º KYU - FAIXA LARANJA" FontAttributes="Bold"
+                           FontSize="20" HorizontalTextAlignment="Center">
+                    </Label>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5">
+                    <StackLayout>
+                        <Label Text="- Kamae" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tenkan" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Irimi tenkan" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tenkai ashi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Mae kaiten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro kaiten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro hanten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yoko hanten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Suwari waza kokyu ho" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="(Para crianças até 10 anos de idade)"
+                       HorizontalTextAlignment="Center" FontSize="15"/>
+                    </StackLayout>
+                </Frame> 
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Yellow">
+                    <Label Text="5º KYU - FAIXA AMARELA" FontAttributes="Bold"
+                           FontSize="20" HorizontalTextAlignment="Center">
+                    </Label>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5">
+                    <StackLayout>
+                        <Label Text="Tai Sabaki" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Kamae" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tenkan" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Irimi tenkan" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tenkai ashi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="Ukemi" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Mae kaiten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro kaiten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro hanten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yoko hanten ukemi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Shomen uchi Ikkyo" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Irimi Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Shiho Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Suwari waza kokyu ho" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="(Mínimo de 30 dias de treino a partir da faixa branca)"
+                            HorizontalTextAlignment="Center" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Purple">
+                    <Label Text="4º KYU - FAIXA ROXA" FontAttributes="Bold"
+                           FontSize="20" HorizontalTextAlignment="Center">
+                    </Label>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5">
+                    <StackLayout>
+                        <Label Text="Ashi no Sabaki" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Ayumi Ashi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsugi Ashi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- OkuriAshi" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="Shikko" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Mae Shikko" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Shikko" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shikko Tenkan" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shikko Irimi Tenkan" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Shomen uchi Ikkyo" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Irimi Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Shiho Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Nikkyo" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yokomen Uchi Shiho Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Suwari waza kokyu ho" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="(Mínimo de 50 dias de treino a partir de 5º Kyu)"
+                            HorizontalTextAlignment="Center" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Green">
+                    <Label Text="3º KYU - FAIXA VERDE" FontAttributes="Bold"
+                           FontSize="20" HorizontalTextAlignment="Center">
+                    </Label>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5">
+                    <StackLayout>
+                        <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Shomen uchi Ikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Nikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Sankyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Yonkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Irimi Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yokomen Uchi Shiho Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsuki Irimi Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Morotetori Kokyu Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ryotedori Shiho Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ryotedori Tenchi Nage" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Suwari waza kokyu ho" HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="(Mínimo de 60 dias de treino a partir de 4º Kyu)"
+                            HorizontalTextAlignment="Center" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Blue">
+                    <Label Text="2º KYU - FAIXA AZUL" FontAttributes="Bold"
+                           FontSize="20" HorizontalTextAlignment="Center">
+                    </Label>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5">
+                    <StackLayout>
+                        <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Shomen uchi Ikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Nikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Sankyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Yonkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Irimi Nage (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Kote Gaeshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsuki Irimi Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsuki Kote Gaeshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ryotedori Tenchi Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Ryokatadori Kote Gaeshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Shiho Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Irimi Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Kote Gaeshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Uchikaiten" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Udekime Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Ikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Nikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Sankyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Yonkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Jyuwaza (Katatedori)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Suwari waza kokyu ho" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="(Mínimo de 70 dias de treino a partir de 3º Kyu)"
+                            HorizontalTextAlignment="Center" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="SaddleBrown">
+                    <Label Text="1º KYU - FAIXA MARROM" FontAttributes="Bold"
+                           FontSize="20" HorizontalTextAlignment="Center">
+                    </Label>
+                </Frame>
+                <Frame Padding="15,15" Margin="15,15,15,5">
+                    <StackLayout>
+                        <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Shomen uchi Ikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Nikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Sankyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Yonkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Irimi Nage (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Shomen uchi Kote Gaeshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yokomen uchi Ikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yokomen uchi Nikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yokomen uchi Sankyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yokomen uchi Yonkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Yokomen uchi Gokyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsuki Irimi Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsuki Kote Gaeshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsuki Udehijiki" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Tsuki Ushiro Kiriotoshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ryotedori Tenchi Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ryotedori Koshi Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Shiho Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Irimi Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Kote Gaeshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Uchikaiten" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Udekime Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katatedori Udegarami" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Ikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Nikkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Sankyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Katadori Yonkyo (Tachi / Suwari Waza)" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Kataeritori Aiki Otoshi" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Ryotedori Kokyu Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Ryokatadori kote Gaeshi " 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Ryotebidori Ikkyo" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Ryotebidori Nikyo" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Ryotebidori Sankyo" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ushiro Ryotebidori Yonkyo" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Hanmi-handachi Shiho Nage" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="Jyuwaza" HorizontalTextAlignment="Center" FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label Text="- Katatedori" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Ryotedori" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="- Morotedori" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text=""/>
+                        <Label Text="- Suwari waza kokyu ho" 
+                               HorizontalTextAlignment="Center" FontSize="15"/>
+                        <Label Text="(Mínimo de 80 dias de treino a partir de 2º Kyu)"
+                            HorizontalTextAlignment="Center" FontSize="15"/>
+                    </StackLayout>
+                </Frame>
             </StackLayout>
         </ScrollView>
     </ContentPage>

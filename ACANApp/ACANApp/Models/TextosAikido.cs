@@ -81,7 +81,60 @@ namespace ACANApp.Models
 		public const string TXTGLOSSARIO =
 			":: QUEM É QUEM ::\n\nNAGE - A pessoa que inicialmente é atacada e depois aplica " +
 			"a técnica.\n\nTORI - O mesmo que NAGE.\n\nUKE - A pessoa que inicialmente ataca e " +
-			"depois recebe a técnica.";
-
+			"depois recebe a técnica.\n\n:: POSTURAS ::\n\nHANMI - Posição de meio corpo.\n" +
+			"KAMAE - Posição de guarda e prontidão.\nMU KAMAE - Guarda vazia. Postura de " +
+			"prontidão com as mãos em estado natural.\nAI HANMI - Posição de guarda utilizada" +
+			" no aikido, com os dois praticantes com o mesmo lado à frente (perna direita com " +
+			"perna direita ou, esquerda com esquerda).\nGYAKU HANMI - Posição de guarda " +
+			"utilizada no Aikido com os dois praticantes com os lados opostos ý frente (perna " +
+			"direita com perna esquerda à frente ou, esquerda com direita).\nTACHI WAZA - " +
+			"Técnicas em pé.\nHANMI HANDACHI - Técnicas nas quais o NAGE fica ajoelhado e o " +
+			"UKE em pé.\nSUWARI WAZA - Técnicas sentadas.\nSEIZA - Posição sentada segundo as " +
+			"tradições japonesas, sentar-se de maneira correta.\n\n:: ESQUIVAS ::\n\nKAITEN - " +
+			"Virar-se girando o quadril.\nTENKAN - Girar o corpo por trás utilizando o pé da " +
+			"frente com o pivô.\nIRIMI - Entrar. Movimento de entrada de corpo feito pelo " +
+			"defensor se deslocando à frente do atacante ou atrás do mesmo.\nIRIMI TENKAN " +
+			"- \"Entrar e girar,\" girar em torno de um centro estável para criar as técnicas " +
+			"do Aikido.\nTENSHIN - Dar um passo para o lado e recuar o pÈ da frente na diagonal." +
+			"\n\n:: DIREÇÕES ::\n\nOMOTE - Pela frente.\nURA - Por trás.\nUCHI - Por dentro.\n" +
+			"SOTO - Por fora.\nHIDARI - Esquerda.\nMIGI - Direita.\nMAE - Para frente.\nUSHIRO " +
+			"- Atrás.\nYOKO - Lateral.\n\n:: ROLAMENTOS ::\n\nUKEMI - Receber uma técnica; queda." +
+			"\nMAE KAITEN UKEMI - Rolamento completo para frente.\nUSHIRO KAITEN UKEMI - " +
+			"Rolamento completo para trás.\nUSHIRO HANTEN UKEMI - Meio rolamento para trás." +
+			"\nYOKO UKEMI - Rolamento para o lado.\n\n:: ATAQUES ::\n\nKATADORI - Agarrar na " +
+			"altura dos ombros.\nKATATEDORI - Agarra no pulso.\nKATATE RYOTEMOCHI ou MOROTEDORI" +
+			" - Agarrar o antebraço com ambas as mãos.\nRYOTEDORI - Agarrar ambos os pulsos " +
+			"usando ambas as mãos.\nMUNADORI - Agarra a gola pela frente.\nUSHIRO RYOTEDORI ou " +
+			"USHIRO TEKUBIDORI - Agarrar ambos os pulsos por trás.\nUSHIRO RYOKATADORI - Agarrar " +
+			"ambos os ombos por trás.\nUSHIRO KUBISHIME - Agarrar um pulso por trás enquanto " +
+			"enforcar com o outro braço.\nUSHIRO ERIDORI - Segurar a gola por trás.\nYOKOMEN " +
+			"UCHI - Golpe circular em direção à lateral da cabeça.\nSHOMEN UCHI - Golpe reto e " +
+			"vertical em direção à cabeça.\nTSUKI - Soco frontal.\nSHOMEN TSUKI - Soco frontal." +
+			"\n\n:: TECNICAS ::\n\nWAZA - Técnica.\nIKKYO - Primeira aprisionamento.\nNIKKYO - " +
+			"Segundo aprisionamento.\nSANKYO - Terceiro aprisionamento.\nYONKYO - Quarto " +
+			"aprisionamento.\nGOKYO - Quinto aprisionamento.\nKOTEGAESHI - Torção de pulso." +
+			"\nIRIMINAGE - Avançar e projetar.\nSHIHONAGE - Projeção nas quatro direções.\n" +
+			"KOSHINAGE - Projeção com o quadril.\nKAITEN NAGE - Projeção com rotação.\nKOKYU " +
+			"NAGE - Projeção com a força da respiração.\nTENCHI NAGE - Projeção Céu-Terra.\n" +
+			"JYUJI GARAME NAGE - Projeção com os braços cruzados.\nSUMI OTOSHI - Projeção para " +
+			"o canto.\n\n:: ALTURAS ::\n\nGEDAN - Abaixo da cintura.\nCHUDAN - Altura do tronco." +
+			"\nJODAN - Altura da cabeça.\n\n:: PARTES DO CORPO ::\n\nAGO - Queixo.\nASHI - Pé." +
+			"\nASHI KUBI - Tornozelo.\nHARA - Abdômen.\nHIJI - Cotovelo.\nKATA - Ombro.\nKOTE - " +
+			"Pulso.\nKOSHI - Quadril.\nKUBI - Pescoço.\nSHOMEN - Face, rosto.\nTE - Mão.\n" +
+			"TEGATANA - Faca da mão.\nTEKUBI - Pulso.\nUDE - Braço.\n\n:: ARMAS ::\n\nBOKKEN ou " +
+			"BOKUTO - Espada de madeira.\nJO - Bastão.\nTANTO - Faca.\n\n:: GRADUAÇÕES ::\n\nKYU " +
+			"- Grau anterior ao Dan; há 5 kyus, em ordem decrescente.\nDAN - Graduação de " +
+			"faixa-preta; em ordem crescente.\nYUDANSHA - Faixa-preta.\nKOHAI - Aluno mais " +
+			"recente.\nSEMPAI - Aluno mais antigo.\nSENSEI - Professor.\nSHIHAN - Mestre acima " +
+			"de 6° Dan.\n\n: SAUDAÇÕES ::\n\nONEGAISHIMASU - Por favor; saudação inicial.\nDOMO " +
+			"ARIGATO GOZAI MASU - Muito-obrigado (presente).\nDOMO ARIGATO GOZAI MASHITA - " +
+			"Muito-obrigado (passado).\nGOMENASAI - Desculpe-me (utilizado apenas privadamente)." +
+			"\nSUMIMASEN - Com licença, desculpe-me (utilizado mais frequentemente).";
+		public const string TXTATAQUES =
+			"NOTA: Os ataques acima podem ser realizados em Tachi Waza (de pé), Suwari Waza " +
+			"(sentado), Hanmi Handachi (um em pé e o outro sentado) em Gyaku Kamae e Ai Hanmi " +
+			"Kamae.\n\n Futarigake(ataque duplo simultâneo) se aplica de acordo com a lista de " +
+			"técnicas pedida.Deslocamentos como Kirioroshi, Kirikaeshi, Uchi Kaiten, Soto " +
+			"Kaiten e Sokumen serão solicitados de acordo com cada exame.";
 	}
 }
