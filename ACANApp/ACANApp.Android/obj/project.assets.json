@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "Microsoft.Toolkit/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Toolkit.dll": {}
+        }
+      },
+      "Microsoft.Toolkit.Parsers/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Toolkit": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Toolkit.Parsers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Toolkit.Parsers.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -804,6 +825,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.Toolkit.Parsers": "6.0.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.3.0.908675"
         },
@@ -817,6 +839,34 @@
     }
   },
   "libraries": {
+    "Microsoft.Toolkit/6.0.0": {
+      "sha512": "ls2eYY28kEwcZPt8oAvXt0LsuRnKpj5DuV5W55bjETsk5EYl+LARiF4BBO7WVGsZ78q+6u9AS8atMeFX3FjXxA==",
+      "type": "package",
+      "path": "microsoft.toolkit/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Toolkit.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.xml",
+        "microsoft.toolkit.6.0.0.nupkg.sha512",
+        "microsoft.toolkit.nuspec"
+      ]
+    },
+    "Microsoft.Toolkit.Parsers/6.0.0": {
+      "sha512": "ygJcXIukirGJPC225RG0RhlqfTiuPDk99nDO9+5DrXlI3UOBG8ZLtHDemvdCaaqar+AQOpIyekJdwa9ViRVbYA==",
+      "type": "package",
+      "path": "microsoft.toolkit.parsers/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Toolkit.Parsers.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.Parsers.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.Parsers.xml",
+        "microsoft.toolkit.parsers.6.0.0.nupkg.sha512",
+        "microsoft.toolkit.parsers.nuspec"
+      ]
+    },
     "System.Numerics.Vectors/4.5.0": {
       "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "type": "package",
@@ -1927,6 +1977,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
       "ACANApp >= 1.0.0",
+      "Microsoft.Toolkit.Parsers >= 6.0.0",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675"
     ]
@@ -1973,6 +2024,10 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
+          "Microsoft.Toolkit.Parsers": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.3.1, )"

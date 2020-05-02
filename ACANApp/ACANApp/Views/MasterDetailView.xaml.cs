@@ -46,7 +46,8 @@ namespace ACANApp.Views
                     Detail = new NavigationPage(new KawaiView());
                     break;
                 case 6:
-                    Detail = new NavigationPage(new CadastroView());
+//                    Detail = new NavigationPage(new CadastroView());
+                    Detail = new NavigationPage(new RSSExemplo());
                     break;
                 case 7:
                     Detail = new NavigationPage(new ContatoView());
