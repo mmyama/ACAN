@@ -39,8 +39,7 @@ namespace ACANApp.Views
                     new MasterDetailViewMasterMenuItem { Id = 3, Title = "Nosso Dojo" },
                     new MasterDetailViewMasterMenuItem { Id = 4, Title = "História do Aikido" },
                     new MasterDetailViewMasterMenuItem { Id = 5, Title = "Aikido no Brasil" },
-                    //new MasterDetailViewMasterMenuItem { Id = 6, Title = "Cadastro" },
-                    new MasterDetailViewMasterMenuItem { Id = 6, Title = "Exemplo RSS" },
+                    new MasterDetailViewMasterMenuItem { Id = 6, Title = "Cadastro" },
                     new MasterDetailViewMasterMenuItem { Id = 7, Title = "Contato" },
                 });
             }

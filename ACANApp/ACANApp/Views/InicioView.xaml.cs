@@ -1,4 +1,5 @@
-﻿using ACANApp.ViewModels;
+﻿using ACANApp.Models;
+using ACANApp.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,5 +23,12 @@ namespace ACANApp.Views
             InitializeComponent();
             this.BindingContext = new InicioViewModel();
         }
+
+        void ListView_OnItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        {
+            var selectedItem = (RssData)e.Item;
+            Navigation.PushAsync(new WebView(selectedItem.Link));
+        }
+
     }
 }
