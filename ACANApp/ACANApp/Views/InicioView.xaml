@@ -15,6 +15,47 @@
                    HorizontalTextAlignment="Center"/>
             </Frame>
             <Image Source="LabelInicioMock2.jpg"></Image>
+
+            <Label Text=""/>
+            <Label Text="Novidades:" Margin="40,0,0,0" FontSize="Medium" FontAttributes="Bold"/>
+            <Frame Margin="40,0,40,10" >
+            <ListView
+                x:Name="NewsFeedList"
+                HasUnevenRows="True"
+                IsPullToRefreshEnabled="True"
+                IsRefreshing="{Binding IsBusy}"
+                ItemTapped="ListView_OnItemTapped"
+                ItemsSource="{Binding RSSFeed}"
+                RefreshCommand="{Binding RefreshNewsFeedCommand}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackLayout Grid.Column="1" Padding="5">
+                                        <Label Text="{Binding PubDate}"/>
+                                        <Label
+                                        FontAttributes="Bold"
+                                        FontSize="Medium"
+                                        Text="{Binding Title}"/>
+                                    <Label LineBreakMode="TailTruncation" Text="{Binding Description}"/>
+                                    <Label
+                                        LineBreakMode="TailTruncation"
+                                        Text="{Binding Author}"
+                                        TextColor="IndianRed"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            </Frame>
+            <BoxView BackgroundColor="Silver" HeightRequest="1" HorizontalOptions="FillAndExpand"></BoxView>
+            <Label Text=""/>
             <Label Text="&quot;Aikido é para o mundo inteiro&quot;"
                  FontSize="15"
                  HorizontalOptions="Center"
