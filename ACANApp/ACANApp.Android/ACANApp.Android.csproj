@@ -181,5 +181,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\iconeWordpressBW.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\iconeFacebookBWRound.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
