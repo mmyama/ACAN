@@ -59,10 +59,13 @@ namespace ACANApp.ViewModels
         {
             RSSFeed = new ObservableCollection<RssData>();
             CarregarRSS();
+            IsBusy = false;
 
             AbrirEmailCommand = new Command<string>(AbrirEmail);
             AbrirNavegadorCommand = new Command<string>(AbrirNavegador);
         }
+
+
 
         private ICommand _refreshNewsFeedCommand;
 
