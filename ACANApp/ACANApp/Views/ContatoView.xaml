@@ -58,7 +58,7 @@
 
             <Label Text=""/>
 
-            <Label Text="Contatos por telefone só minutos antes dos horários de treino ou logo após. Prefira preencher o formulário acima ou enviar um e-mail"
+            <Label Text="Contatos por telefone só minutos antes dos horários de treino ou logo após. Prefira enviar um e-mail"
                    HorizontalTextAlignment="Center" Margin="15,15,15,5"/>
             <Label FontAttributes="Bold" TextColor="Blue"
                    HorizontalTextAlignment="Center">
