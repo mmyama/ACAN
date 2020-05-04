@@ -102,8 +102,9 @@ namespace ACANApp.ViewModels
                         Description = rssSchema.Summary
                     });
                 }
-                IsBusy = false;
+//                IsBusy = false;
             }
+            IsBusy = false;
         }
 
         public async void AbrirEmail(string endereco)
