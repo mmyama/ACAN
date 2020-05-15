@@ -7,7 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACANApp.Android", "ACANApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACANApp.iOS", "ACANApp\ACANApp.iOS\ACANApp.iOS.csproj", "{56A638A3-AB25-4575-8F9C-2183FFB90908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACANApp", "ACANApp\ACANApp\ACANApp.csproj", "{CA015986-929C-462B-A0CD-B86D3A03D99A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ACANApp", "ACANApp\ACANApp\ACANApp.csproj", "{CA015986-929C-462B-A0CD-B86D3A03D99A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7D25EABD-3F7E-4598-BB91-34A6F62533B0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

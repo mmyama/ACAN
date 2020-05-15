@@ -12,9 +12,11 @@ namespace ACANApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CadastroView : ContentPage
     {
+
         public CadastroView()
         {
             InitializeComponent();
+
         }
     }
 }

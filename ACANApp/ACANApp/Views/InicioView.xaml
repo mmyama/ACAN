@@ -14,7 +14,7 @@
                    FontSize="25"
                    HorizontalTextAlignment="Center"/>
             </Frame>
-            <Image Source="LabelInicioMock2.jpg"></Image>
+            <Image Source="LabelInicioMockSmall.jpg" Margin="5,10"></Image>
 
             <Label Text=""/>
             <Label Text="Novidades:" Margin="40,0,0,0" FontSize="Medium" FontAttributes="Bold"/>

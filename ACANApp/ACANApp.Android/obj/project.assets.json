@@ -773,6 +773,19 @@
           "build/monoandroid90/Xamarin.Android.Support.ViewPager.targets": {}
         }
       },
+      "Xamarin.Android.Volley/1.1.1.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop",
+          "Mono.Android"
+        ],
+        "compile": {
+          "lib/monoandroid80/Xamarin.Android.Volley.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid80/Xamarin.Android.Volley.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.3.1": {
         "type": "package",
         "dependencies": {
@@ -1670,6 +1683,19 @@
         "xamarin.android.support.viewpager.nuspec"
       ]
     },
+    "Xamarin.Android.Volley/1.1.1.1": {
+      "sha512": "Luuz+An+gKGYWUxK+dpnqbz3YJt3HJIhwTqx26j/R/rvgfg6zQIaZ7JlpLmhFmtJQB6DzAw2yPe40NQ4WWj8zg==",
+      "type": "package",
+      "path": "xamarin.android.volley/1.1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/monoandroid80/Xamarin.Android.Volley.dll",
+        "xamarin.android.volley.1.1.1.1.nupkg.sha512",
+        "xamarin.android.volley.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.3.1": {
       "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
       "type": "package",
@@ -1980,6 +2006,7 @@
     "MonoAndroid,Version=v9.0": [
       "ACANApp >= 1.0.0",
       "Microsoft.Toolkit.Parsers >= 6.0.0",
+      "Xamarin.Android.Volley >= 1.1.1.1",
       "Xamarin.Essentials >= 1.3.1",
       "Xamarin.Forms >= 4.3.0.908675"
     ]
@@ -2030,6 +2057,10 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
+          "Xamarin.Android.Volley": {
+            "target": "Package",
+            "version": "[1.1.1.1, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.3.1, )"
@@ -2041,13 +2072,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\Documentos\\Aikido\\ACANApp\\ACANApp\\ACANApp.Android\\obj\\ACANApp.Android.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
