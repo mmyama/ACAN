@@ -123,12 +123,15 @@
                 
                 <Label Text="KIHON" HorizontalOptions="Center" HorizontalTextAlignment="Center"
                        FontSize="25"/>
-                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Orange">
+                <!--<Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Orange">-->
+                <Frame Padding="15,15" Margin="15,15,15,0" BackgroundColor="#f2f2f2">
                     <Label Text="6º KYU - FAIXA LARANJA" FontAttributes="Bold"
                            FontSize="20" HorizontalTextAlignment="Center">
                     </Label>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5">
+                <BoxView BackgroundColor="Orange" HeightRequest="10" HorizontalOptions="FillAndExpand"
+                         Margin="15,0,15,0"/>
+                <Frame Padding="15,15" Margin="15,5,15,5">
                     <StackLayout>
                         <Label Text="- Kamae" HorizontalTextAlignment="Center" FontSize="15"/>
                         <Label Text="- Tenkan" HorizontalTextAlignment="Center" FontSize="15"/>
@@ -143,12 +146,14 @@
                        HorizontalTextAlignment="Center" FontSize="15"/>
                     </StackLayout>
                 </Frame> 
-                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Yellow">
+                <Frame Padding="15,15" Margin="15,15,15,0" BackgroundColor="#f2f2f2">
                     <Label Text="5º KYU - FAIXA AMARELA" FontAttributes="Bold"
                            FontSize="20" HorizontalTextAlignment="Center">
                     </Label>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5">
+                <BoxView BackgroundColor="Yellow" HeightRequest="10" HorizontalOptions="FillAndExpand"
+                         Margin="15,0,15,0"/>
+                <Frame Padding="15,15" Margin="15,5,15,5">
                     <StackLayout>
                         <Label Text="Tai Sabaki" HorizontalTextAlignment="Center" FontSize="15"
                             FontAttributes="Bold"/>
@@ -172,12 +177,14 @@
                             HorizontalTextAlignment="Center" FontSize="15"/>
                     </StackLayout>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Purple">
+                <Frame Padding="15,15" Margin="15,15,15,0" BackgroundColor="#f2f2f2">
                     <Label Text="4º KYU - FAIXA ROXA" FontAttributes="Bold"
                            FontSize="20" HorizontalTextAlignment="Center">
                     </Label>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5">
+                <BoxView BackgroundColor="Purple" HeightRequest="10" HorizontalOptions="FillAndExpand"
+                         Margin="15,0,15,0"/>
+                <Frame Padding="15,15" Margin="15,5,15,5">
                     <StackLayout>
                         <Label Text="Ashi no Sabaki" HorizontalTextAlignment="Center" FontSize="15"
                             FontAttributes="Bold"/>
@@ -202,12 +209,14 @@
                             HorizontalTextAlignment="Center" FontSize="15"/>
                     </StackLayout>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Green">
+                <Frame Padding="15,15" Margin="15,15,15,0" BackgroundColor="#f2f2f2">
                     <Label Text="3º KYU - FAIXA VERDE" FontAttributes="Bold"
                            FontSize="20" HorizontalTextAlignment="Center">
                     </Label>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5">
+                <BoxView BackgroundColor="Green" HeightRequest="10" HorizontalOptions="FillAndExpand"
+                         Margin="15,0,15,0"/>
+                <Frame Padding="15,15" Margin="15,5,15,5">
                     <StackLayout>
                         <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
                             FontAttributes="Bold"/>
@@ -230,12 +239,14 @@
                             HorizontalTextAlignment="Center" FontSize="15"/>
                     </StackLayout>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="Blue">
+                <Frame Padding="15,15" Margin="15,15,15,0" BackgroundColor="#f2f2f2">
                     <Label Text="2º KYU - FAIXA AZUL" FontAttributes="Bold"
                            FontSize="20" HorizontalTextAlignment="Center">
                     </Label>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5">
+                <BoxView BackgroundColor="Blue" HeightRequest="10" HorizontalOptions="FillAndExpand"
+                         Margin="15,0,15,0"/>
+                <Frame Padding="15,15" Margin="15,5,15,5">
                     <StackLayout>
                         <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
                             FontAttributes="Bold"/>
@@ -285,12 +296,14 @@
                             HorizontalTextAlignment="Center" FontSize="15"/>
                     </StackLayout>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5" BackgroundColor="SaddleBrown">
+                <Frame Padding="15,15" Margin="15,15,15,0" BackgroundColor="#f2f2f2">
                     <Label Text="1º KYU - FAIXA MARROM" FontAttributes="Bold"
                            FontSize="20" HorizontalTextAlignment="Center">
                     </Label>
                 </Frame>
-                <Frame Padding="15,15" Margin="15,15,15,5">
+                <BoxView BackgroundColor="SaddleBrown" HeightRequest="10" HorizontalOptions="FillAndExpand"
+                         Margin="15,0,15,0"/>
+                <Frame Padding="15,15" Margin="15,5,15,5">
                     <StackLayout>
                         <Label Text="Ataques e Princípios" HorizontalTextAlignment="Center" FontSize="15"
                             FontAttributes="Bold"/>

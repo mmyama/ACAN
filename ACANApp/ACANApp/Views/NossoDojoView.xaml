@@ -60,11 +60,11 @@
                     <Label Text="Sensei"
                                    FontSize="25" HorizontalTextAlignment="Center"/>
                 </Frame>
-                <Image Source="James01.jpg"></Image>
+                <Image Source="James01.jpg" Margin="15,15,15,15"/>
                 <Label Text="JAMES CARLOS ARAÚJO" FontSize="Large" FontAttributes="Bold"
-                       HorizontalOptions="Center"></Label>
-                <Label Text="5º DAN" FontSize="Medium" HorizontalOptions="Center"></Label>
-                
+                       HorizontalOptions="Center"/>
+                <Label Text="5º DAN" FontSize="Medium" HorizontalOptions="Center"/>
+
             </StackLayout>
         </ScrollView>
     </ContentPage>
