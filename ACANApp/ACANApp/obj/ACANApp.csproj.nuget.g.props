@@ -15,4 +15,8 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.3.0.908675\build\Xamarin.Forms.props" Condition="Exists('C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.3.0.908675\build\Xamarin.Forms.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgXamarin_UITest Condition=" '$(PkgXamarin_UITest)' == '' ">C:\Users\Marcelo\.nuget\packages\xamarin.uitest\3.0.7</PkgXamarin_UITest>
+    <PkgNode_js Condition=" '$(PkgNode_js)' == '' ">C:\Users\Marcelo\.nuget\packages\node.js\5.3.0</PkgNode_js>
+  </PropertyGroup>
 </Project>
