@@ -47,7 +47,6 @@ namespace ACANApp.Views
                     break;
                 case 6:
                     Detail = new NavigationPage(new BlogView());
-                    
                     break;
                 case 7:
                     Detail = new NavigationPage(new CadastroView());

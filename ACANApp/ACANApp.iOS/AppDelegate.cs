@@ -4,6 +4,11 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+/*
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+*/
 
 namespace ACANApp.iOS
 {
@@ -24,6 +29,13 @@ namespace ACANApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            /*
+            AppCenter.Start("ios=572b1241-0969-403c-8601-db9d17c5909c;" +
+                  "uwp={Your UWP App secret here};" +
+                  "android={Your Android App secret here}",
+                typeof(Analytics), typeof(Crashes));
+             */
 
             return base.FinishedLaunching(app, options);
         }
